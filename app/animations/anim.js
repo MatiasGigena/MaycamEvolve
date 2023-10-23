@@ -6,7 +6,7 @@ export const slideUp2 = {
   exit: {
     y: '-100vw',
     transition: {
-      duration: 0.8,
+      duration: 0.6,
       ease: [0.76, 0, 0.24, 1],
       delay: 0.2,
     },
