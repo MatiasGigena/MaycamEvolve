@@ -54,6 +54,9 @@ body {
   .hvr-underline-from-left {
     display: none;
   }
+  .custom-cursor {
+    display: none;
+  }
 }
 .loader {
   display: flex;

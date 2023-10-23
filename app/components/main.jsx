@@ -7,7 +7,7 @@ const HomePage = ({ timeline }) => {
   return (
     <section className='min-h-screen w-full  flex flex-col items-center md:px-10 lg:px-12 xl:px-16 xxl:px-20 gap-2 pb-9 justify-start'>
       <div className='grid grid-cols-1  lg:grid-cols-3 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-20 xl:pt-10 w-full'>
-        <div className='lg:col-span-2 h-[20rem] relative md:h-[30rem] lg:h-[30rem] xl:h-[34rem] xxl:h-[40.3rem]  w-full   '>
+        <div className='lg:col-span-2 h-[16rem] relative md:h-[30rem] lg:h-[30rem] xl:h-[34rem] xxl:h-[40.3rem]  w-full   '>
           <Image
             src='/images/maycam.jpg'
             alt='logo'

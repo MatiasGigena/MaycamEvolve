@@ -12,10 +12,10 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Redes = () => {
   return (
-    <div className='flex flex-col w-full gap-12 lg:w-[75%] mt-12 lg:gap-24  text-white '>
+    <div className='flex flex-col w-full gap-12 lg:w-[75%] mt-12 lg:gap-28  text-white '>
       <div className='flex flex-col gap-5  overflow-hidden'>
         <motion.p
-          className='text-4xl font-extralight'
+          className=' text-xl lg:text-4xl font-extralight'
           variants={mobileLinkVars}
         >
           Nuestras redes
@@ -58,7 +58,7 @@ const Redes = () => {
       <div className='flex flex-col overflow-hidden gap-8'>
         <motion.p
           variants={mobileLinkVars}
-          className='text-4xl font-extralight'
+          className=' text-xl lg:text-4xl font-extralight'
         >
           Contactos y Assets de prensa
         </motion.p>
@@ -66,13 +66,13 @@ const Redes = () => {
           variants={mobileLinkVars}
           className='flex flex-col gap-4 '
         >
-          <li className='flex gap-32'>
+          <li className='flex text-xs lg:text-base gap-32'>
             <span>+541121795715</span>
-            <span> Matías Gigena Prueba</span>
+            <span> Matías Gigena</span>
           </li>
-          <li className='flex gap-32'>
+          <li className='flex text-xs lg:text-base gap-32'>
             <span>+541121795715</span>
-            <span>Emanueal Gaggero Prueba</span>
+            <span>Emanueal Gaggero</span>
           </li>
         </motion.ul>
       </div>

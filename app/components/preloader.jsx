@@ -11,7 +11,7 @@ const Preloader = () => {
       className='min-h-screen fixed w-full  bg-black top-0 left-0 z-[999] text-white flex items-center justify-center'
     >
       <Image
-        src='/images/Pre-comp 7.gif'
+        src='/images/Pre-comp 7-min.gif'
         width={500}
         height={100}
         alt='logo'
