@@ -57,11 +57,12 @@ const Navbar = ({ timeline }) => {
         <li>
           <a href='/main'>
             <Image
-              src='/images/logo1.png'
+              src='/images/compressed.webp'
               alt='logo'
               width={120}
               height={100}
               quality={100}
+              priority={true}
               style={{ height: 'auto' }}
               className='w-[55%] lg:w-full '
             />
