@@ -13,7 +13,7 @@ const MainPage = () => {
       setIsLoading(false);
       document.body.style.cursor = 'default';
       router.push('/main');
-    }, 5200);
+    }, 5600);
   }, [router]);
 
   return (
