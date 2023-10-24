@@ -3,7 +3,7 @@ import Companies2 from './sponsors2';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import Streamers from './streamers';
 
-const HomePage = ({ timeline }) => {
+const HomePage = () => {
   return (
     <section className='min-h-screen w-full  flex flex-col items-center md:px-10 lg:px-12 xl:px-16 xxl:px-20 gap-2 pb-9 justify-start'>
       <div className='grid grid-cols-1  lg:grid-cols-3 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-20 xl:pt-10 w-full'>
@@ -57,7 +57,7 @@ const HomePage = ({ timeline }) => {
             </span>
           </p>
         </div>
-        <div className='overflow-hidden borderB w-[90%] lg:w-auto'>
+        <div className='overflow-hidden borderB rounded-[20px] w-[90%] lg:w-auto'>
           <TwitterTimelineEmbed
             noBorders
             options={{

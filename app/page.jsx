@@ -1,7 +1,6 @@
 'use client';
 import React, { useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import Image from 'next/image';
 const App = () => {
   const router = useRouter();
 
