@@ -18,52 +18,55 @@ export const moveSideNames = (
   noticiasRef,
   tiendaRef,
   contactoRef,
-  miembrosRef,
-  burgerRef
+  miembrosRef
 ) => {
   const tl = gsap.timeline();
   tl.to(
     equiposRef,
     {
-      x: '-100vw',
-      duration: 1.2,
+      opacity: 0,
     },
     0
   )
     .to(
       noticiasRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       tiendaRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       contactoRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       miembrosRef,
       {
-        x: '-17vw',
+        opacity: 0,
       },
       0
     )
-    .to(burgerRef, {
-      opacity: 1,
-    });
+    .to(
+      miembrosRef,
+      {
+        position: 'absolute',
+        left: '180px',
+        opacity: 1, // Esto hará que noticiasRef aparezca desde la izquierda
+        duration: 1.2,
+      },
+      '+=0.3'
+    );
+
   return tl;
 };
 
@@ -72,52 +75,55 @@ export const moveSideNames2 = (
   noticiasRef,
   tiendaRef,
   contactoRef,
-  miembrosRef,
-  burgerRef
+  miembrosRef
 ) => {
   const tl = gsap.timeline();
   tl.to(
     equiposRef,
     {
-      x: '-3vw',
+      position: 'absolute',
+      left: '180px',
+      opacity: 1, // Esto hará que noticiasRef aparezca desde la izquierda
+      duration: 1.2,
     },
-    0
+    '+=0.3'
   )
+    .to(
+      equiposRef,
+      {
+        opacity: 0,
+      },
+      0
+    )
     .to(
       noticiasRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       tiendaRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       contactoRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       miembrosRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
-    )
-    .to(burgerRef, {
-      opacity: 1,
-    });
+    );
+
   return tl;
 };
 
@@ -126,52 +132,55 @@ export const moveSideNames3 = (
   noticiasRef,
   tiendaRef,
   contactoRef,
-  miembrosRef,
-  burgerRef
+  miembrosRef
 ) => {
   const tl = gsap.timeline();
   tl.to(
     equiposRef,
     {
-      x: '-100vw',
-      duration: 1.2,
+      opacity: 0,
     },
     0
   )
     .to(
       noticiasRef,
       {
-        x: '-33vw',
+        opacity: 0,
       },
       0
     )
     .to(
+      noticiasRef,
+      {
+        position: 'absolute',
+        left: '180px',
+        opacity: 1, // Esto hará que noticiasRef aparezca desde la izquierda
+        duration: 1.2,
+      },
+      '+=0.3' // Esto retrasará la segunda animación de noticiasRef en medio segundo
+    )
+    .to(
       tiendaRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       contactoRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       miembrosRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
-    )
-    .to(burgerRef, {
-      opacity: 1,
-    });
+    );
+
   return tl;
 };
 
@@ -180,52 +189,55 @@ export const moveSideNames4 = (
   noticiasRef,
   tiendaRef,
   contactoRef,
-  miembrosRef,
-  burgerRef
+  miembrosRef
 ) => {
   const tl = gsap.timeline();
   tl.to(
     equiposRef,
     {
-      x: '-100vw',
-      duration: 1.2,
+      opacity: 0,
     },
     0
   )
     .to(
       noticiasRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       tiendaRef,
       {
-        x: '-49vw',
+        opacity: 0,
       },
       0
     )
     .to(
+      tiendaRef,
+      {
+        position: 'absolute',
+        left: '180px',
+        opacity: 1, // Esto hará que noticiasRef aparezca desde la izquierda
+        duration: 1.2,
+      },
+      '+=0.3'
+    )
+    .to(
       contactoRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       miembrosRef,
       {
-        x: '100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
-    )
-    .to(burgerRef, {
-      opacity: 1,
-    });
+    );
+
   return tl;
 };
 
@@ -234,52 +246,55 @@ export const moveSideNames5 = (
   noticiasRef,
   tiendaRef,
   contactoRef,
-  miembrosRef,
-  burgerRef
+  miembrosRef
 ) => {
   const tl = gsap.timeline();
   tl.to(
     equiposRef,
     {
-      x: '-100vw',
-      duration: 1.2,
+      opacity: 0,
     },
     0
   )
     .to(
       noticiasRef,
       {
-        x: '-100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       tiendaRef,
       {
-        x: '-100vw',
-        duration: 1.2,
+        opacity: 0,
       },
       0
     )
     .to(
       contactoRef,
       {
-        x: '-63vw',
+        opacity: 0,
       },
       0
     )
     .to(
-      miembrosRef,
+      contactoRef,
       {
-        x: '-100vw',
+        position: 'absolute',
+        left: '180px',
+        opacity: 1, // Esto hará que noticiasRef aparezca desde la izquierda
         duration: 1.2,
       },
-      0
+      '+=0.3'
     )
-    .to(burgerRef, {
-      opacity: 1,
-    });
+    .to(
+      miembrosRef,
+      {
+        opacity: 0,
+      },
+      0
+    );
+
   return tl;
 };
 
