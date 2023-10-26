@@ -10,7 +10,7 @@ const Streamers = () => {
     {
       nombre: 'ZEKI',
       nacionalidad: 'ARGENTINA',
-      img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
+      img: '/images/zeki.png',
       instagram: 'https://www.instagram.com/xzeekii/',
       tiktok: 'https://www.tiktok.com/@xzeekii',
       twitch: 'https://www.twitch.tv/zeki',
@@ -40,7 +40,7 @@ const Streamers = () => {
     {
       nombre: 'randompl4yer',
       nacionalidad: 'ARGENTINA',
-      img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
+      img: '/images/marcos.png',
       instagram:
         'https://www.instagram.com/randompl4yerok/',
       tiktok: 'https://www.tiktok.com/@randompl4yer',
@@ -52,7 +52,7 @@ const Streamers = () => {
     {
       nombre: 'FOLKER',
       nacionalidad: 'ARGENTINA',
-      img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
+      img: '/images/folker.webp',
       instagram: 'https://www.instagram.com/folkerz12/',
       tiktok: 'https://www.tiktok.com/@folkerz12',
       twitch: 'https://www.twitch.tv/folkerz12',
@@ -62,17 +62,17 @@ const Streamers = () => {
     {
       nombre: 'CONO',
       nacionalidad: 'ARGENTINA',
-      img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
-      instagram: '',
-      tiktok: 'https://www.tiktok.com/',
-      twitch: 'https://www.twitch.tv/manucrespoo',
-      youtube: 'https://www.youtube.com/@manucrespoo',
-      twitter: 'https://twitter.com/RandomPl4yerok',
+      img: '/images/cono.png',
+      instagram: 'https://www.instagram.com/con0o_/',
+      tiktok: 'https://www.tiktok.com/@con0o_',
+      twitch: 'https://www.twitch.tv/Con0o',
+      youtube: 'https://www.youtube.com/@con0o',
+      twitter: 'https://twitter.com/Con0o_',
     },
     {
       nombre: 'TIZI',
       nacionalidad: 'ARGENTINA',
-      img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
+      img: '/images/tiziana.png',
       instagram:
         'https://www.instagram.com/sharontiziana_/',
       tiktok: 'https://www.tiktok.com/',
@@ -80,20 +80,31 @@ const Streamers = () => {
       youtube: 'https://www.youtube.com/@',
       twitter: 'https://twitter.com/',
     },
+    // {
+    //   nombre: 'MATI FIFA',
+    //   nacionalidad: 'ARGENTINA',
+    //   img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
+    //   instagram: 'https://www.instagram.com/matififa90/',
+    //   tiktok: 'https://www.tiktok.com/@matififa90',
+    //   twitch: 'https://www.twitch.tv/matififa_90',
+    //   youtube: 'https://www.youtube.com/@matififa90',
+    //   twitter: 'https://twitter.com/mati_alvarez7',
+    // },
     {
-      nombre: 'MATI FIFA',
+      nombre: 'Fernanda Russo',
       nacionalidad: 'ARGENTINA',
-      img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
-      instagram: 'https://www.instagram.com/matififa90/',
-      tiktok: 'https://www.tiktok.com/@matififa90',
-      twitch: 'https://www.twitch.tv/matififa_90',
-      youtube: 'https://www.youtube.com/@matififa90',
-      twitter: 'https://twitter.com/mati_alvarez7',
+      img: '/images/fernanda.webp',
+      instagram:
+        'https://www.instagram.com/russofernandaa/',
+      tiktok: 'https://www.tiktok.com/',
+      twitch: 'https://www.twitch.tv/',
+      youtube: 'https://www.youtube.com/',
+      twitter: 'https://twitter.com/ItsFerRusso',
     },
   ];
   return (
-    <section>
-      <div className='pt-16 pb-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20'>
+    <section className='mt-10'>
+      <div className='py-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20'>
         <div className='mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16'>
           <p className='inline-block px-3 py-px mb-3 text-sm font-semibold tracking-wider text-white uppercase bg-[#715bd4] rounded-full'>
             Nuestros Creadores de Contenido
@@ -111,16 +122,16 @@ const Streamers = () => {
           {streamers.map((streamer, index) => {
             return (
               <div key={index}>
-                <div className='relative  rounded-md shadow-lg group'>
+                <div className='relative fondo5D  rounded-lg shadow-lg group'>
                   <Image
                     width={500}
                     height={500}
-                    className='object-cover  w-full h-72 xl:h-80'
+                    className='object-cover object-top rounded-lg  w-full h-[34rem] xl:h-80'
                     src={streamer.img}
                     alt='Team Member Name'
                   />
                   <div className='absolute inset-0 px-6 py-4 text-center duration-300 opacity-0 group-hover:opacity-100'>
-                    <div className='absolute inset-0 borderB w-full h-full bg-gradient-to-br from-blue-500 opacity-60 to-purple-700'></div>
+                    <div className='absolute rounded-lg inset-0 borderB w-full h-full bg-gradient-to-br from-blue-500 opacity-60 to-purple-700'></div>
                     <div className='relative flex flex-col items-center justify-center w-full h-full'>
                       <p className='mb-1 text-lg font-bold text-white'>
                         {streamer.nombre}

@@ -9,7 +9,7 @@ const HomePage = () => {
       <div className='grid grid-cols-1  lg:grid-cols-3 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-20 xl:pt-10 w-full'>
         <div className='lg:col-span-2 h-[16rem] relative md:h-[30rem] lg:h-[30rem] xl:h-[34rem] xxl:h-[40.3rem]  w-full   '>
           <Image
-            src='/images/maycam.webp'
+            src='/images/noticias2.webp'
             alt='logo'
             fill
             className='object-cover md:rounded-xl shadow-xl hover:opacity-80 h-full transition duration-300'

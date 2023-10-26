@@ -24,11 +24,11 @@ const Navbar = ({ timeline }) => {
     setOpen((prevOpen) => !prevOpen);
   };
   const navLinks = [
-    { title: 'Nuestros Equipos', href: '/' },
-    { title: 'Noticias y Novedades', href: '/' },
+    { title: 'Nuestros Equipos', href: '/equipos' },
+    { title: 'Noticias y Novedades', href: '/noticias' },
     { title: 'Sobre Nosotros', href: '/' },
-    { title: 'Tienda', href: '/' },
-    { title: 'Contáctanos', href: '/' },
+    { title: 'Tienda', href: '/tienda' },
+    { title: 'Contáctanos', href: '/contacto' },
   ];
   const router = useRouter();
   const miembrosRef = useRef(null);
@@ -36,7 +36,6 @@ const Navbar = ({ timeline }) => {
   const noticiasRef = useRef(null);
   const tiendaRef = useRef(null);
   const contactoRef = useRef(null);
-  const burgerRef = useRef(null);
   const handleClick = (animation) => {
     timeline.clear();
     timeline.add(
@@ -51,7 +50,7 @@ const Navbar = ({ timeline }) => {
     timeline.play();
   };
   return (
-    <section className='w-full borderB shadow-xl h-20 lg:h-24 bg-[#1a1e1c] relative flex items-center'>
+    <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 bg-[#1a1e1c] relative flex items-center'>
       <ul className='flex justify-between ml-8 font-medium items-center text-2xl w-full text-white'>
         <li>
           <a href='/main'>
@@ -131,9 +130,9 @@ const Navbar = ({ timeline }) => {
             initial='initial'
             animate='animate'
             exit='exit'
-            className='fixed left top-0 w-full h-screen origin-top p-10 z-50 bg-[#715bd4] '
+            className='fixed left-0 top-0 w-full h-screen origin-top p-10 z-50 bg-[#715bd4] '
           >
-            <div className='flex h-full flex-col'>
+            <div className='flex h-full flex-col justify-center'>
               <motion.div
                 variants={containerVars}
                 initial='initial'
@@ -160,9 +159,9 @@ const Navbar = ({ timeline }) => {
                 initial='initial'
                 animate='open'
                 exit='initial'
-                className='grid grid-cols-1 lg:grid-cols-3 mt-10 lg:mt-0 h-full'
+                className='grid grid-cols-1  place-content-center lg:grid-cols-3 mt-10 lg:mt-0 h-full'
               >
-                <div className='flex flex-col gap-4 justify-center lg:gap-20'>
+                <div className='flex flex-col  gap-4 justify-center lg:gap-20'>
                   {navLinks.map((link, index) => {
                     return (
                       <div
@@ -170,6 +169,7 @@ const Navbar = ({ timeline }) => {
                         className='overflow-hidden'
                       >
                         <MobileNavLink
+                          toggleMenu={toggleMenu}
                           title={link.title}
                           href={link.href}
                         />
@@ -179,7 +179,7 @@ const Navbar = ({ timeline }) => {
                 </div>
                 <div className='h-full flex flex-col gap-4 lg:gap-0 w-full lg:col-span-2  justify-evenly items-center '>
                   <Redes />
-                  <div className=' w-full lg:w-[80%] overflow-hidden  flex justify-center items-center'>
+                  <div className=' w-full lg:w-[80%] overflow-hidden mt-16 flex justify-center items-center'>
                     <Companies />
                   </div>
                 </div>
