@@ -2,13 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --timing: 400ms;
+  --rotation: 20deg;
+}
+htlm {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   background: black;
-  cursor: none;
 }
+
 .custom-cursor {
   position: fixed;
   width: 40px;
@@ -171,6 +178,14 @@ body {
   background-image: url('../public/images/marco2.jpg');
   background-size: cover;
   background-position: center;
+}
+.fondoNav {
+  background-image: url('../public/images/fondonav.png');
+  background-repeat: no-repeat;
+}
+.compressedbg {
+  background-image: url('../public/images/compressedbg.webp');
+  background-size: cover;
 }
 
 .borderB {

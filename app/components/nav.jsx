@@ -50,8 +50,8 @@ const Navbar = ({ timeline }) => {
     timeline.play();
   };
   return (
-    <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 bg-[#1a1e1c] relative flex items-center'>
-      <ul className='flex justify-between ml-8 font-medium items-center text-2xl w-full text-white'>
+    <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
+      <ul className='flex justify-between ml-8 font-semibold items-center text-xl w-full text-white'>
         <li>
           <a href='/main'>
             <Image

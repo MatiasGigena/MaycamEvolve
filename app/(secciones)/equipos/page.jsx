@@ -1,4 +1,10 @@
-const page = () => {
-  return <div></div>;
+import Games from '@/app/components/games';
+
+const Equipos = () => {
+  return (
+    <>
+      <Games />
+    </>
+  );
 };
-export default page;
+export default Equipos;

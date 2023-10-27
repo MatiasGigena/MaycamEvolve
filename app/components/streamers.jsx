@@ -122,7 +122,7 @@ const Streamers = () => {
           {streamers.map((streamer, index) => {
             return (
               <div key={index}>
-                <div className='relative fondo5D  rounded-lg shadow-lg group'>
+                <div className='relative compressedbg rounded-lg shadow-lg group'>
                   <Image
                     width={500}
                     height={500}
