@@ -313,10 +313,10 @@ export const menuVars = {
     },
   },
   exit: {
-    scaleY: 0,
+    opacity: 0,
     transition: {
       delay: 0.5,
-      duration: 0.7,
+      duration: 1.8,
       ease: [0.22, 0, 0.36, 1],
     },
   },

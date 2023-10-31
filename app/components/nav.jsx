@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
-      <ul className='flex justify-between ml-8 font-semibold items-center text-xl w-full text-white'>
+      <ul className='flex justify-between ml-4 lg:ml-8 font-semibold items-center text-xl w-full text-white'>
         <li>
           <a href='/main'>
             <Image
@@ -101,7 +101,7 @@ const Navbar = () => {
         </li>
         <li
           onClick={toggleMenu}
-          className=' text-[2rem] flex text-[#715bd4]  lg:text-white items-center justify-center right-0 h-28 w-28 lg:h-24 top-3 lg:w-24 lg:bg-[#715bd4]'
+          className=' text-[2rem] flex text-[#715bd4]  lg:text-white items-center justify-center right-0 h-20 w-20 lg:h-24 top-3 lg:w-24 lg:bg-[#715bd4]'
         >
           ☰
         </li>
@@ -142,7 +142,7 @@ const Navbar = () => {
                 initial='initial'
                 animate='open'
                 exit='initial'
-                className='grid grid-cols-1  place-content-center lg:grid-cols-3 mt-10 lg:mt-0 h-full'
+                className='grid grid-cols-1  lg:place-content-center lg:grid-cols-3 mt-8 lg:mt-0 h-full'
               >
                 <div className='flex flex-col  gap-4 justify-center lg:gap-20'>
                   {navLinks.map((link, index) => {
@@ -160,9 +160,9 @@ const Navbar = () => {
                     );
                   })}
                 </div>
-                <div className='h-full flex flex-col gap-4 lg:gap-0 w-full lg:col-span-2  justify-evenly items-center '>
+                <div className='h-full flex flex-col gap-10 lg:gap-0 w-full lg:col-span-2  justify-start items-center '>
                   <Redes />
-                  <div className=' w-full lg:w-[80%] overflow-hidden mt-16 flex justify-center items-center'>
+                  <div className=' w-full lg:w-[80%] overflow-hidden lg:mt-16 flex justify-center items-center'>
                     <Companies />
                   </div>
                 </div>

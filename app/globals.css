@@ -79,6 +79,9 @@ body {
   .custom-cursor {
     display: none;
   }
+  .selected {
+    display: none;
+  }
 }
 .loader {
   display: flex;

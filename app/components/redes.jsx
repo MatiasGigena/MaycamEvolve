@@ -12,7 +12,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Redes = () => {
   return (
-    <div className='flex flex-col w-full gap-12 lg:w-[75%] mt-12 lg:gap-28  text-white '>
+    <div className='flex flex-col w-full gap-12 lg:w-[75%] lg:mt-12 lg:gap-28  text-white '>
       <div className='flex flex-col gap-5  overflow-hidden'>
         <motion.p
           className=' text-xl lg:text-4xl font-extralight'
