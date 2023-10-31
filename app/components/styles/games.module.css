@@ -5,7 +5,7 @@
   perspective: 1000px;
 }
 .yoda {
-  width: 300px;
+  width: 350px;
   aspect-ratio: 9 / 16;
   position: relative;
   transform-style: preserve-3d;
@@ -56,9 +56,30 @@
   z-index: 10;
   height: 100%;
   object-fit: cover;
-  object-position: -150px center;
+  object-position: -120px center;
+}
+.bgimage1 {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  object-fit: cover;
+  object-position: 0px center;
 }
 
+.bgimage2 {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  object-fit: cover;
+  object-position: -290px center;
+}
+.bgimage3 {
+  position: absolute;
+  z-index: 10;
+  height: 100%;
+  object-fit: cover;
+  object-position: -50px center;
+}
 .logo,
 .frontimage {
   position: absolute;

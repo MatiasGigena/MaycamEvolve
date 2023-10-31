@@ -1,25 +1,24 @@
 'use client';
 import Image from 'next/image';
-import { useState, useRef } from 'react';
+import { useState } from 'react';
 import {
-  moveSideNames,
-  moveSideNames2,
-  moveSideNames3,
-  moveSideNames4,
-  moveSideNames5,
   menuVars,
   containerVars,
   mobileLinkVars,
 } from '../animations/anim';
-import { useRouter } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import MobileNavLink from './mobileNav';
 import { AnimatePresence, motion } from 'framer-motion';
 import CloseIcon from '@mui/icons-material/Close';
 import Companies from './sponsors';
 import Redes from './redes';
 
-const Navbar = ({ timeline }) => {
+const Navbar = () => {
   const [open, setOpen] = useState(false);
+  const pathname = usePathname();
+  const router = useRouter();
+
+  let subpage = pathname.split('/')?.[1];
   const toggleMenu = () => {
     setOpen((prevOpen) => !prevOpen);
   };
@@ -30,25 +29,19 @@ const Navbar = ({ timeline }) => {
     { title: 'Tienda', href: '/tienda' },
     { title: 'Contáctanos', href: '/contacto' },
   ];
-  const router = useRouter();
-  const miembrosRef = useRef(null);
-  const equiposRef = useRef(null);
-  const noticiasRef = useRef(null);
-  const tiendaRef = useRef(null);
-  const contactoRef = useRef(null);
-  const handleClick = (animation) => {
-    timeline.clear();
-    timeline.add(
-      animation(
-        equiposRef.current,
-        noticiasRef.current,
-        tiendaRef.current,
-        contactoRef.current,
-        miembrosRef.current
-      )
-    );
-    timeline.play();
+
+  const activeLinks = (type = null) => {
+    let classes = '';
+
+    if (type === subpage) {
+      classes +=
+        'selected transition-opacity animate-[fade-out_1s_ease-out]';
+    } else {
+      classes += 'hvr-underline-from-left';
+    }
+    return classes;
   };
+
   return (
     <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
       <ul className='flex justify-between ml-8 font-semibold items-center text-xl w-full text-white'>
@@ -67,50 +60,40 @@ const Navbar = ({ timeline }) => {
           </a>
         </li>
         <li
-          ref={equiposRef}
-          className='hvr-underline-from-left '
+          className={activeLinks('equipos')}
           onClick={() => {
-            handleClick(moveSideNames2);
             router.push('/equipos');
           }}
         >
           Equipos
         </li>
         <li
-          ref={miembrosRef}
-          className='hvr-underline-from-left'
+          className={activeLinks('miembros')}
           onClick={() => {
-            handleClick(moveSideNames);
             router.push('/miembros');
           }}
         >
           Miembros
         </li>
         <li
-          ref={noticiasRef}
-          className='hvr-underline-from-left'
+          className={activeLinks('noticias')}
           onClick={() => {
-            handleClick(moveSideNames3);
             router.push('/noticias');
           }}
         >
           Noticias
         </li>
         <li
-          ref={tiendaRef}
-          className='hvr-underline-from-left'
+          className={activeLinks('tienda')}
           onClick={() => {
-            handleClick(moveSideNames4);
             router.push('/tienda');
           }}
         >
           Tienda
         </li>
         <li
-          ref={contactoRef}
-          className='hvr-underline-from-left'
+          className={activeLinks('contacto')}
           onClick={() => {
-            handleClick(moveSideNames5);
             router.push('/contacto');
           }}
         >
