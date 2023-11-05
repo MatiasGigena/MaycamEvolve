@@ -57,7 +57,7 @@ const HomePage = () => {
             </span>
           </p>
         </div>
-        <div className='overflow-hidden borderB rounded-[20px] w-[90%] lg:w-auto'>
+        <div className='overflow-hidden borderB lg:rounded-[20px] w-[90%] lg:w-auto'>
           <TwitterTimelineEmbed
             noBorders
             options={{

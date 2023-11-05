@@ -44,7 +44,7 @@ const Navbar = () => {
 
   return (
     <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
-      <ul className='flex justify-between ml-4 lg:ml-8 font-semibold items-center text-xl w-full text-white'>
+      <ul className='flex cursor-pointer justify-between ml-4 lg:ml-8 font-semibold items-center text-xl w-full text-white'>
         <li>
           <a href='/main'>
             <Image
@@ -160,7 +160,7 @@ const Navbar = () => {
                     );
                   })}
                 </div>
-                <div className='h-full flex flex-col gap-10 lg:gap-0 w-full lg:col-span-2  justify-start items-center '>
+                <div className='h-full flex flex-col  lg:gap-0 w-full lg:col-span-2  justify-start items-center '>
                   <Redes />
                   <div className=' w-full lg:w-[80%] overflow-hidden lg:mt-16 flex justify-center items-center'>
                     <Companies />

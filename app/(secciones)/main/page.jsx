@@ -9,18 +9,16 @@ const MainPage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-      document.body.style.cursor = 'default';
-      router.push('/main');
-      window.scrollTo(0, 0);
-    }, 5600);
+    router.push('/main');
+    window.scrollTo(0, 0);
   }, [router]);
 
   return (
     <>
       <AnimatePresence mode='wait'>
-        {isLoading && <Preloader />}
+        {isLoading && (
+          <Preloader setIsLoading={setIsLoading} />
+        )}
       </AnimatePresence>
       <HomePage />
     </>

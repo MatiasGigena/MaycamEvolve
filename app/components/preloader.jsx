@@ -1,8 +1,12 @@
 'use client';
-import Image from 'next/image';
 import { slideUp2 } from '../animations/anim';
 import { motion } from 'framer-motion';
-const Preloader = () => {
+const Preloader = ({ setIsLoading }) => {
+  const handleVideoEnd = () => {
+    setIsLoading(false);
+    document.body.style.cursor = 'default';
+    window.scrollTo(0, 0);
+  };
   return (
     <motion.div
       variants={slideUp2}
@@ -15,6 +19,7 @@ const Preloader = () => {
         playsInline
         muted
         style={{ width: '700px', height: '700px' }}
+        onEnded={handleVideoEnd}
       >
         <source
           src='images/ezgif.com-optimize.mp4'
