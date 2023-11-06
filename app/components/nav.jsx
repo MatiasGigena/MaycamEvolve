@@ -37,14 +37,14 @@ const Navbar = () => {
       classes +=
         'selected transition-opacity animate-[fade-out_1s_ease-out]';
     } else {
-      classes += 'hvr-underline-from-left';
+      classes += 'hvr-underline-from-left cursor-pointer';
     }
     return classes;
   };
 
   return (
     <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
-      <ul className='flex cursor-pointer justify-between ml-4 lg:ml-8 font-semibold items-center text-xl w-full text-white'>
+      <ul className='flex justify-between ml-4 lg:ml-8 font-semibold items-center text-xl w-full text-white'>
         <li>
           <a href='/main'>
             <Image
@@ -55,7 +55,7 @@ const Navbar = () => {
               quality={100}
               priority={true}
               style={{ height: 'auto' }}
-              className='w-[55%] lg:w-full '
+              className='w-[55%] lg:w-full cursor-pointer'
             />
           </a>
         </li>

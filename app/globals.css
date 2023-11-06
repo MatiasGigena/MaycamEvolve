@@ -201,6 +201,7 @@ body {
   background-image: url('../public/images/fondonav.png');
   background-repeat: no-repeat;
 }
+
 .compressedbg {
   background-image: url('../public/images/compressedbg.webp');
   background-size: cover;
