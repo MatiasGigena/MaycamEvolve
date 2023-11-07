@@ -60,9 +60,9 @@ const Companies = () => {
       variants={mobileLinkVars}
       className='
            
-            bg-[#fff]
-            rounded-lg
-            lg:rounded-[40px]
+            rounded-2xl
+            lg:rounded-full
+            border-x-2
             gap-3
             sm:gap-8
             md:gap-9
@@ -85,11 +85,11 @@ w-full
           <Slider {...settings}>
             <div className={styles.container}>
               <Image
-                className={styles.image}
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
                 }
-                src={'/logosblack/GATORADE BLACK.png'}
+                className={styles.image}
+                src={'/logoswhite/GATORADE WHITE.png'}
                 alt='MustHaveApps Logo'
                 fill
                 priority={true}
@@ -101,7 +101,7 @@ w-full
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
                 }
                 className={styles.image}
-                src={'/logosblack/GGPOKER Black.png'}
+                src={'/logoswhite/GGPOKER White 2.png'}
                 alt='Binance Logo'
                 fill
                 priority={true}
@@ -113,8 +113,8 @@ w-full
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
                 }
                 className={styles.image}
-                src={'/logosblack/JBL QUANTUM V BLACK.png'}
-                alt='JBL QUANTUM Logo'
+                src={'/logoswhite/JBL QUANTUM V WHITE.png'}
+                alt='Headway Logo'
                 fill
                 priority={true}
               />
@@ -125,7 +125,7 @@ w-full
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
                 }
                 className={styles.image}
-                src={'/logosblack/MAYCAMGAMES Black.png'}
+                src={'/logoswhite/MAYCAMGAMES White.png'}
                 alt='Instories Logo'
                 fill
                 priority={true}
@@ -138,7 +138,7 @@ w-full
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
                 }
                 className={styles.image}
-                src={'/logosblack/PREX Black.png'}
+                src={'/logoswhite/PREX White.png'}
                 alt='Binance Logo'
                 fill
                 priority={true}
@@ -150,7 +150,31 @@ w-full
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
                 }
                 className={styles.image}
-                src={'/logosblack/REDRAGON Black.png'}
+                src={'/logoswhite/REDRAGON White.png'}
+                alt='Binance Logo'
+                fill
+                priority={true}
+              />
+            </div>
+            <div className={styles.container}>
+              <Image
+                sizes={
+                  '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
+                }
+                className={styles.image}
+                src={'/logoswhite/San Ignacio White.png'}
+                alt='Binance Logo'
+                fill
+                priority={true}
+              />
+            </div>
+            <div className={styles.container}>
+              <Image
+                sizes={
+                  '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
+                }
+                className={styles.image}
+                src={'/logoswhite/SEAGATE WHITE.png'}
                 alt='Binance Logo'
                 fill
                 priority={true}
