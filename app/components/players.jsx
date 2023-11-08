@@ -24,19 +24,19 @@ const Players = () => {
       juego: 'dota',
       nombre: 'Gerosa Destribats Victoria Debora',
       gamerTag: 'GaRaF',
-      img: '/images/siluetamujer.png',
+      img: '/dota/garaf.png',
     },
     {
       juego: 'dota',
       nombre: 'Evangelista Milena',
       gamerTag: 'Mile-Mile',
-      img: '/images/siluetamujer.png',
+      img: '/dota/mile.png',
     },
     {
       juego: 'dota',
       nombre: 'Romina Ayelén Pacheco',
       gamerTag: 'Lykke',
-      img: '/images/siluetamujer.png',
+      img: '/dota/lykke.png',
     },
     {
       juego: 'r6',

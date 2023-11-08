@@ -326,14 +326,14 @@ body {
   /* Agrega una sombra al subrayado */
 }
 .textsh2 {
-  text-shadow: 0px 1px 2px rgb(255, 0, 166),
-    0px 2px 4px rgb(255, 0, 166),
-    0px 4px 8px rgb(255, 0, 166),
-    0px 8px 16px rgb(255, 0, 166),
-    0px -1px 2px rgb(255, 0, 166),
-    0px -2px 4px rgb(255, 0, 166),
-    0px -4px 8px rgb(255, 0, 166),
-    0px -8px 16px rgb(255, 0, 166); /* Agrega una sombra al subrayado */
+  text-shadow: 0px 1px 2px rgb(247, 108, 198),
+    0px 2px 4px rgb(247, 108, 198),
+    0px 4px 8px rgb(247, 108, 198),
+    0px 8px 16px rgb(247, 108, 198),
+    0px -1px 2px rgb(247, 108, 198),
+    0px -2px 4px rgb(247, 108, 198),
+    0px -4px 8px rgb(247, 108, 198),
+    0px -8px 16px rgb(247, 108, 198); /* Agrega una sombra al subrayado */
 }
 .hvr-bounce-to-right {
   display: inline-block;

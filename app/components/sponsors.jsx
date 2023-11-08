@@ -58,8 +58,7 @@ const Companies = () => {
   return (
     <motion.section
       variants={mobileLinkVars}
-      className='
-           
+      className='     
             rounded-2xl
             lg:rounded-full
             border-x-2
@@ -72,11 +71,9 @@ const Companies = () => {
             md:pb-8
             lg:pt-12
             lg:pb-12 
-w-full
+            w-full
             m-7 
-
-            z-20
-                   
+            z-20        
         '
       id='companies'
     >
