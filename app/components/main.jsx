@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <section className='min-h-screen w-full  flex flex-col items-center md:px-10 lg:px-12 xl:px-16 xxl:px-20 gap-2 pb-9 justify-start'>
       <div className='grid grid-cols-1  lg:grid-cols-3 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-10 xl:pt-10 w-full'>
-        <div className='lg:col-span-2 h-[16rem] relative md:h-[26rem]  xl:h-[34rem] xxl:h-[40.3rem]  w-full   '>
+        <div className='lg:col-span-2 h-[16rem] relative md:h-[26rem]  xl:h-[34rem] xxl:h-[40.3rem] w-full'>
           <a
             href='https://www.linkedin.com/company/maycamevolve/posts/?feedView=all'
             target='_blank'
@@ -23,7 +23,7 @@ const HomePage = () => {
         <div className='flex-col md:gap-2 lg:gap-0 flex justify-center items-center w-full '>
           <div className='relative overflow-hidden w-full pt-[62%]'>
             <iframe
-              src='https://player.twitch.tv/?channel=maycamevolve&parent=maycam-evolve'
+              src='https://player.twitch.tv/?channel=maycamevolve&parent=maycam-evolve.vercel.app'
               allowFullScreen
               height='378'
               width='620'
