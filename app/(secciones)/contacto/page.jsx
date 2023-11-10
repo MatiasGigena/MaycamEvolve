@@ -37,41 +37,65 @@ const Contacto = () => {
           <p className=' text-2xl lg:text-4xl'>
             Social Media
           </p>
-          <ul className='flex gap-4 lg:gap-6  mt-3 text-white items-center'>
-            <li>
+          <div className='flex gap-4 lg:gap-6  text-white items-center'>
+            <a
+              href='https://www.instagram.com/maycamevolve/'
+              target='_blank'
+            >
               <InstagramIcon />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://www.tiktok.com/@maycamevolve'
+              target='_blank'
+            >
               <BiLogoTiktok
                 style={{ fontSize: '1.5rem' }}
               />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://twitter.com/maycamevolve/'
+              target='_blank'
+            >
               <TwitterIcon />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://www.youtube.com/c/MaycamEvolve/videos'
+              target='_blank'
+            >
               <YouTubeIcon />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
+              target='_blank'
+            >
               <BsLinkedin />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://www.behance.net/maycamevolve'
+              target='_blank'
+            >
               <AiFillBehanceCircle
                 style={{ fontSize: '1.5rem' }}
               />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://www.facebook.com/MaycamEvolve/'
+              target='_blank'
+            >
               <Facebook />
-            </li>
-            <li>
+            </a>
+            <a
+              href='https://discord.com/invite/r7qHmd6u6g'
+              target='_blank'
+            >
               <BsDiscord style={{ fontSize: '1.5rem' }} />
-            </li>
-            <li>
+            </a>
+            <a href='' target='_blank'>
               <HiOutlineMail
                 style={{ fontSize: '1.5rem' }}
               />
-            </li>
-          </ul>
+            </a>
+          </div>
         </div>
         <div className='flex flex-col transition-opacity animate-[fade-in_4s_ease-in]   relative h-20 w-full lg:w-1/2 text-white'>
           <p className=' text-2xl lg:text-4xl'>Sponsors</p>

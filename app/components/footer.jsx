@@ -1,6 +1,4 @@
 'use client';
-import { motion } from 'framer-motion';
-import { mobileLinkVars } from '../animations/anim';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
@@ -9,21 +7,25 @@ import { BsLinkedin, BsDiscord } from 'react-icons/bs';
 import { AiFillBehanceCircle } from 'react-icons/ai';
 import { Facebook } from '@mui/icons-material';
 import { HiOutlineMail } from 'react-icons/hi';
-
-const Redes = () => {
+const Footer = () => {
   return (
-    <div className='flex flex-col w-full mt-3 gap-4 lg:w-[75%] lg:mt-12 lg:gap-28  text-white '>
-      <div className='flex flex-col gap-5  overflow-hidden'>
-        <motion.p
-          className=' text-xl lg:text-4xl font-extralight'
-          variants={mobileLinkVars}
-        >
-          Nuestras redes
-        </motion.p>
-        <motion.div
-          variants={mobileLinkVars}
-          className='flex gap-5 items-center '
-        >
+    <footer className='footer borderB footer-center p-10 bg-black fondoNav2 text-white rounded'>
+      <nav className='grid grid-flow-col gap-4'>
+        <a href='/equipos' className='link link-hover'>
+          Equipo
+        </a>
+        <a href='/noticias' className='link link-hover'>
+          Noticias
+        </a>
+        <a href='/tienda' className='link link-hover'>
+          Tienda
+        </a>
+        <a href='/contacto' className='link link-hover'>
+          Contacto
+        </a>
+      </nav>
+      <nav>
+        <div className='flex gap-4 lg:gap-6  text-white items-center'>
           <a
             href='https://www.instagram.com/maycamevolve/'
             target='_blank'
@@ -77,30 +79,15 @@ const Redes = () => {
           <a href='' target='_blank'>
             <HiOutlineMail style={{ fontSize: '1.5rem' }} />
           </a>
-        </motion.div>
-      </div>
-      <div className='flex flex-col overflow-hidden gap-8'>
-        <motion.p
-          variants={mobileLinkVars}
-          className=' text-xl lg:text-4xl font-extralight'
-        >
-          Contactos y Assets de prensa
-        </motion.p>
-        <motion.ul
-          variants={mobileLinkVars}
-          className='flex flex-col gap-4 '
-        >
-          <li className='flex text-xs lg:text-base gap-32'>
-            <span>+541121795715</span>
-            <span> Matías Gigena</span>
-          </li>
-          <li className='flex text-xs lg:text-base gap-32'>
-            <span>+541121795715</span>
-            <span>Emanueal Gaggero</span>
-          </li>
-        </motion.ul>
-      </div>
-    </div>
+        </div>
+      </nav>
+      <aside>
+        <p>
+          Copyright © 2023 - All right reserved by Matías
+          Gigena.
+        </p>
+      </aside>
+    </footer>
   );
 };
-export default Redes;
+export default Footer;

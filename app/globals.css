@@ -219,6 +219,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.fondoNav2 {
+  background-image: url('../public/images/fondonav2.png');
+  background-size: cover;
+}
+
 .compressedbg {
   background-image: url('../public/images/compressedbg.webp');
   background-size: cover;
