@@ -74,7 +74,7 @@ const Companies3 = () => {
             z-20 
             absolute
             left-0   
-            top-2  
+            top-4  
             ml-[-2rem] 
             
         '

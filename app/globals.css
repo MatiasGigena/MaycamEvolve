@@ -6,8 +6,9 @@
   --timing: 400ms;
   --rotation: 20deg;
 }
-htlm {
+html {
   scroll-behavior: smooth;
+  background-color: black;
 }
 body {
   margin: 0;

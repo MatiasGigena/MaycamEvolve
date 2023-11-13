@@ -15,7 +15,7 @@ export const slideUp2 = {
 export const menuVars = {
   initial: {
     opacity: 0,
-    scaleY: 0.5,
+    scaleY: 0.99,
   },
 
   animate: {
@@ -30,7 +30,7 @@ export const menuVars = {
     opacity: 0,
     transition: {
       delay: 0.5,
-      duration: 1.8,
+      duration: 0.5,
       ease: [0.22, 0, 0.36, 1],
     },
   },

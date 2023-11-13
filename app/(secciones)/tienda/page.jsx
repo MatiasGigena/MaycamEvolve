@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import 'animate.css';
 
 const Tienda = () => {
   return (
@@ -10,7 +11,7 @@ const Tienda = () => {
             href='https://articulo.mercadolibre.com.ar/MLA-1183906200-jersey-maycam-evolve-edicion-especial-argentina-mundial-2022-_JM'
             className='group relative block'
           >
-            <div className='relative h-[500px] sm:h-[650px] transition-opacity animate-[fade-in_1s_ease-in] '>
+            <div className='relative h-[500px] animate__animated animate__bounceInLeft sm:h-[650px] transition-opacity animate-[fade-in_1s_ease-in] '>
               <Image
                 fill
                 quality={100}
@@ -25,7 +26,7 @@ const Tienda = () => {
                 className='absolute inset-0 borderB h-full w-full object-cover opacity-0 transition duration-500 group-hover:opacity-100'
               />
             </div>
-            <div className='absolute inset-0 flex flex-col items-start justify-end p-6'>
+            <div className='absolute animate__animated animate__zoomInUp inset-0 flex flex-col items-start justify-end p-6'>
               <h3 className='text-xl textsh font-medium text-white'>
                 Jersey Limitada Mundialista
               </h3>
@@ -40,7 +41,7 @@ const Tienda = () => {
             </div>
           </a>
         </div>
-        <div className=' w-[350px] lg:w-[460px] h-full'>
+        <div className=' w-[350px] animate__animated animate__bounceInRight lg:w-[460px] h-full'>
           <a
             target='_blank'
             href='https://articulo.mercadolibre.com.ar/MLA-1133083845-jersey-oficial-equipos-esports-maycam-evolve-temporada-2022-_JM'
@@ -62,7 +63,7 @@ const Tienda = () => {
                 className='absolute inset-0 h-full w-full borderB object-cover transition duration-500 opacity-0 group-hover:opacity-100'
               />
             </div>
-            <div className='absolute inset-0 flex flex-col items-start justify-end p-6'>
+            <div className='absolute animate__animated animate__zoomInUp inset-0 flex flex-col items-start justify-end p-6'>
               <h3 className='text-xl textsh2 font-medium text-white'>
                 Jersey Oficial
               </h3>

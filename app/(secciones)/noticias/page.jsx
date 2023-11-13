@@ -1,26 +1,17 @@
 'use client';
-import { useEffect } from 'react';
 
 const Noticias = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src =
-      'https://widgets.sociablekit.com/linkedin-page-posts/widget.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
-    <main className='min-h-screen fondo3D py-14 px-4 w-full flex flex-col items-center justify-center'>
-      <div
-        className='sk-ww-linkedin-page-post'
-        data-embed-id='221398'
-      ></div>
+    <main className='min-h-screen relative fondo3D py-14 px-4 w-full flex flex-col items-center justify-center'>
+      <iframe
+        src='https://www.juicer.io/api/feeds/maycamevolve/iframe'
+        style={{
+          display: 'block',
+          margin: '0 auto',
+          width: '100%',
+          height: '1000px',
+        }}
+      ></iframe>
     </main>
   );
 };

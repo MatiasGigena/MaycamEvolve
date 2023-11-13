@@ -103,7 +103,7 @@ const Streamers = () => {
     },
   ];
   return (
-    <section className='mt-10'>
+    <section id='streamers' className='mt-10'>
       <div className='py-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20'>
         <div className='mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16'>
           <p className='inline-block px-3 py-px mb-3 text-sm font-semibold tracking-wider text-white uppercase bg-[#715bd4] rounded-full'>

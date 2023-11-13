@@ -59,6 +59,9 @@ const Navbar = () => {
             />
           </a>
         </li>
+        <li className={activeLinks('miembros')}>
+          <a href='/main#streamers'>Miembros</a>
+        </li>
         <li
           className={activeLinks('equipos')}
           onClick={() => {
@@ -66,14 +69,6 @@ const Navbar = () => {
           }}
         >
           Equipos
-        </li>
-        <li
-          className={activeLinks('miembros')}
-          onClick={() => {
-            router.push('/miembros');
-          }}
-        >
-          Miembros
         </li>
         <li
           className={activeLinks('noticias')}

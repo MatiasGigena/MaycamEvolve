@@ -9,8 +9,20 @@ const MainPage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    router.push('/main');
-    window.scrollTo(0, 0);
+    if (window.location.hash !== '#streamers') {
+      setIsLoading(true);
+      router.push('/main');
+      window.scrollTo(0, 0);
+    } else {
+      setIsLoading(false);
+      const streamersElement =
+        document.getElementById('streamers');
+      if (streamersElement) {
+        streamersElement.scrollIntoView({
+          behavior: 'smooth',
+        });
+      }
+    }
   }, [router]);
 
   return (

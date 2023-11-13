@@ -1,9 +1,10 @@
 import styles from './styles/games.module.css';
+import 'animate.css';
 
 const Games = () => {
   return (
     <main className='min-h-screen w-full flex items-center justify-center'>
-      <section className='grid transition-opacity animate-[fade-in_1s_ease-in] grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-[80%]  gap-x-32 gap-y-16 py-20 md:py-28 lg:py-10 perspective place-items-center min-h-screen'>
+      <section className='grid animate__animated animate__zoomInDown transition-opacity animate-[fade-in_1s_ease-in] grid-cols-1 md:grid-cols-2 xl:grid-cols-3 w-[80%]  gap-x-32 gap-y-16 py-20 md:py-28 lg:py-10 perspective place-items-center min-h-screen'>
         <a
           href='/equipos/cs2'
           className={`${styles.yoda} order-1`}
