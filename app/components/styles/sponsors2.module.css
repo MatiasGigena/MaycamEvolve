@@ -1,6 +1,6 @@
 .mainContainer {
   position: relative;
-  height: 50px;
+  height: 80px;
 }
 
 .mainContainer::before,
@@ -33,11 +33,11 @@
   justify-content: center;
   align-items: center;
   width: 150px;
-  height: 70px;
+  height: 90px;
 }
 
 .mainContainer .container .image {
-  height: 20px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;

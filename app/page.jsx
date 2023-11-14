@@ -10,18 +10,7 @@ const App = () => {
 
   return (
     <div className='min-h-screen w-full flex justify-center items-center'>
-      <div className='loader'>
-        <div className='loader-inner'>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-          <div className='loader-block'></div>
-        </div>
-      </div>
+      <div class='spinner'></div>
     </div>
   );
 };

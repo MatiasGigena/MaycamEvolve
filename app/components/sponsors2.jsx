@@ -60,8 +60,8 @@ const Companies2 = () => {
       variants={mobileLinkVars}
       className='
            
-            bg-[#715bd4]
-            fondo4D
+            bg-[#000]
+            fondoNav2
             borderB
             rounded-lg
             lg:rounded-[40px]
@@ -72,8 +72,7 @@ const Companies2 = () => {
             py-10
             md:pt-8
             md:pb-8
-            lg:pt-12
-            lg:pb-12 
+            lg:py-12
 w-full
             m-7 
 
@@ -97,7 +96,9 @@ w-full
                 priority={true}
               />
             </div>
-            <div className={styles.container}>
+            <div
+              className={`${styles.container} scale-[1.30]`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -134,7 +135,9 @@ w-full
               />
             </div>
 
-            <div className={styles.container}>
+            <div
+              className={`${styles.container} scale-150`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -146,7 +149,9 @@ w-full
                 priority={true}
               />
             </div>
-            <div className={styles.container}>
+            <div
+              className={`${styles.container} scale-105`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -158,7 +163,9 @@ w-full
                 priority={true}
               />
             </div>
-            <div className={styles.container}>
+            <div
+              className={`${styles.container} scale-110`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -170,7 +177,9 @@ w-full
                 priority={true}
               />
             </div>
-            <div className={styles.container}>
+            <div
+              className={`${styles.container} scale-105`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
