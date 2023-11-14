@@ -7,7 +7,7 @@ import {
 import { useEffect } from 'react';
 
 const CstomCrsor = () => {
-  const cursorSize = 40;
+  const cursorSize = 10;
   const mouse = {
     x: useMotionValue(0),
     y: useMotionValue(0),
