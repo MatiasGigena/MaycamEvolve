@@ -11,8 +11,8 @@ import Companies3 from '@/app/components/sponsors3';
 import { HiDownload } from 'react-icons/hi';
 const Contacto = () => {
   return (
-    <main className='h-[90vh] fondo3D w-full  flex items-start overflow-hidden px-10 '>
-      <section className='h-[70vh] w-full flex flex-col mt-10 xl:mt-16 gap-10 xl:gap-12'>
+    <main className='h-[100vh] lg:h-[90vh] fondo3D w-full  flex items-start overflow-hidden px-10 '>
+      <section className=' h-full lg:h-[70vh] w-full flex flex-col mt-10 xl:mt-16 gap-8 lg:gap-10 xl:gap-12'>
         <div className='flex flex-col xl:h-40 gap-6 xl:gap-8 transition-opacity animate-[fade-in_1s_ease-in]  w-full xl:w-3/5 text-white'>
           <p className=' text-2xl xl:text-4xl'>
             Nuestros{' '}
@@ -123,7 +123,7 @@ const Contacto = () => {
           </p>
           <Companies3 />
         </div>
-        <div className='flex flex-col gap-8 xl:gap-10 justify-center items-start transition-opacity animate-[fade-in_2s_ease-in] mt-32  relative h-20 w-full xl:w-1/2 text-white'>
+        <div className='flex flex-col gap-8 xl:gap-10 justify-center items-start transition-opacity animate-[fade-in_2s_ease-in] mt-16 lg:mt-32  relative h-20 w-full xl:w-1/2 text-white'>
           <p className=' text-2xl xl:text-4xl '>
             Descarga{' '}
             <span className='text-[#715bd4]'>Assets</span> y{' '}

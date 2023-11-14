@@ -9,7 +9,7 @@ import { Facebook } from '@mui/icons-material';
 import { HiOutlineMail } from 'react-icons/hi';
 const Footer = () => {
   return (
-    <footer className='footer borderB footer-center p-10 bg-black fondoNav2 text-white rounded'>
+    <footer className='footer borderB footer-center p-10 bg-black fondoNav2 text-white'>
       <nav className='grid grid-flow-col gap-4'>
         <a href='/equipos' className='link link-hover'>
           Equipo
