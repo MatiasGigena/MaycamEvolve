@@ -21,33 +21,28 @@ const Contacto = () => {
             </span>
           </p>
           <div className='h-full justify-start items-start flex-col gap-4 flex xl:flex-row xl:items-center xl:gap-16'>
-            <div className='flex border-2 border-[#715bd4] rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start justify-start '>
+            <div className='flex border-2 hvr-fade border-[#715bd4] text-[#715bd4] font-medium rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start justify-start '>
               <p className=' text-base xl:text-2xl'>
-                Generales
+                General
               </p>
-              <p className='text-xs xl:text-xl'>
-                hola
-                <span className='text-[#715bd4]'>@</span>
-                maycamevolve.com
+              <p className='text-xs text-white xl:text-xl'>
+                hola@maycamevolve.com
               </p>
             </div>
-            <div className='flex border-2 border-[#715bd4] rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start '>
+            <div className='flex border-2 hvr-fade border-[#715bd4] text-[#715bd4] font-medium rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start '>
               <p className=' text-base xl:text-2xl'>
-                Deportivas
+                Deportivo
               </p>
-              <p className='text-xs xl:text-xl'>
-                meg<span className='text-[#715bd4]'>@</span>
-                maycamevolve.com
+              <p className='text-xs text-white xl:text-xl'>
+                meg@maycamevolve.com
               </p>
             </div>
-            <div className='flex border-2 border-[#715bd4] rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start '>
+            <div className='flex border-2 hvr-fade border-[#715bd4] text-[#715bd4] font-medium rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start '>
               <p className=' text-base xl:text-2xl'>
                 Marketing
               </p>
-              <p className='text-xs xl:text-xl'>
-                marketing
-                <span className='text-[#715bd4]'>@</span>
-                maycamevolve.com
+              <p className='text-xs text-white xl:text-xl'>
+                marketing@maycamevolve.com
               </p>
             </div>
           </div>
@@ -129,7 +124,7 @@ const Contacto = () => {
             <span className='text-[#715bd4]'>Assets</span> y{' '}
             <span className='text-[#715bd4]'>Gráficos</span>
           </p>
-          <button className='border border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'>
+          <button className='border hvr-fade font-medium border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'>
             Download{' '}
             <HiDownload style={{ fontSize: '1.3rem' }} />
           </button>

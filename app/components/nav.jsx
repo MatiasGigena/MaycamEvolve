@@ -25,7 +25,7 @@ const Navbar = () => {
   const navLinks = [
     { title: 'Nuestros Equipos', href: '/equipos' },
     { title: 'Noticias y Novedades', href: '/noticias' },
-    { title: 'Sobre Nosotros', href: '/' },
+    { title: 'Sponsors', href: '/sponsors' },
     { title: 'Tienda', href: '/tienda' },
     { title: 'Contáctanos', href: '/contacto' },
   ];

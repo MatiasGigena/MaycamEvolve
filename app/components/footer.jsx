@@ -23,6 +23,9 @@ const Footer = () => {
         <a href='/contacto' className='link link-hover'>
           Contacto
         </a>
+        <a href='/sponsors' className='link link-hover'>
+          Sponsors
+        </a>
       </nav>
       <nav>
         <div className='flex gap-4 lg:gap-6  text-white items-center'>
