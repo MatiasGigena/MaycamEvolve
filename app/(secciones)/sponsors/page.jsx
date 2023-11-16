@@ -13,21 +13,21 @@ const Sponsors = () => {
     },
     {
       name: 'JBL QUANTUM V',
-      logo: '/logoswhite/JBL QUANTUM V white.png',
+      logo: '/logoswhite/JBL QUANTUM V WHITE.png',
       url: 'https://www.jbl.com/',
       description:
         'JBL siempre ha creído que el sonido debería ser un escenario abierto, un lugar de libre expresión donde las voces sean escuchadas, sin restricciones ni limitaciones. Es por eso que destacamos y celebramos la expresión auténtica y sin filtros de artistas, creadores y artistas valientes. JBL está aquí para ayudarte a expresar tu verdadero yo, para que puedas experimentar la alegría y emoción de ser tú mismo.',
     },
     {
       name: 'MAYCAMGAMES',
-      logo: '/logoswhite/MAYCAMGAMES white.png',
+      logo: '/logoswhite/MAYCAMGAMES White.png',
       url: 'https://maycamgames.com/',
       description:
         'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quos tenetur qui nostrum aliquid cumesse dolore. Soluta earum nam recusandae inciduntiusto, sequi, eaque deserunt impedit quis nobis excepturi.',
     },
     {
       name: 'PREX',
-      logo: '/logoswhite/PREX white.png',
+      logo: '/logoswhite/PREX White.png',
       url: 'https://prex.com/',
       description:
         'Brindamos acceso a productos financieros seguros, innovadores, transparentes y de calidad en LATAM a través de una cuenta digital. Si tu plata rinde, ¡cuenta! Tenés una cuenta, una App, una tarjeta prepaga internacional y libertad financiera en tus manos.',
@@ -41,21 +41,21 @@ const Sponsors = () => {
     },
     {
       name: 'GATORADE',
-      logo: '/logoswhite/GATORADE white.png',
+      logo: '/logoswhite/GATORADE WHITE.png',
       url: 'https://www.gatorade.com/',
       description:
         'Gatorade, se destaca por ofrecer innovaciones en rendimiento deportivo. Con más de 40 años de experiencia y un enfoque en el estudio de los mejores atletas del mundo, la empresa se basa en investigaciones de hidratación y nutrición deportiva realizadas en el Gatorade Sports Science Institute. Su compromiso radica en proporcionar productos científicamente formulados que aborden las necesidades de combustible deportivo de atletas en todas las fases de su actividad atlética.',
     },
     {
       name: 'REDRAGON',
-      logo: '/logoswhite/REDRAGON white.png',
+      logo: '/logoswhite/REDRAGON White.png',
       url: 'https://www.redragonzone.com/',
       description:
         'Eastern Times Technology Co., Ltd, fundada en 1996, es una de las principales fábricas de ratones y teclados en China. Con más de 1400 empleados, ofrece servicios de producción integrales. Como propietaria de Redragon, una marca destacada en periféricos de juegos, se compromete a brindar productos de alto rendimiento a nivel global. Con 20 años de experiencia, Redragon se destaca por su innovación en diseño e calidad. Su presencia de ventas abarca más de 30 países y aspira a proporcionar una vida de calidad y comodidad a sus usuarios.',
     },
     {
       name: 'SAN IGNACIO',
-      logo: '/logoswhite/San Ignacio white.png',
+      logo: '/logoswhite/San Ignacio White.png',
       url: 'https://sanignacio.com.ar/index.html',
       description:
         'San Ignacio, fundada en 1939 en Rosario, Argentina, es conocida por su excelencia en la producción de dulce de leche y queso. Procesan más de 27 millones de litros de leche anualmente para producir dulce de leche, queso y productos frescos que son reconocidos por su calidad, tradición y han ganado premios, como el mejor queso azul del país en 2006. San Ignacio es elegida por otras marcas por su trayectoria, tradición y calidad para ubicarnos en el corazón de sus productos.',
