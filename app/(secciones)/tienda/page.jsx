@@ -4,8 +4,8 @@ import 'animate.css';
 const Tienda = () => {
   return (
     <main className='min-h-screen px-4 py-10 lg:pt-0 lg:pb-32 flex flex-col gap-4 lg:px-10 items-center justify-center w-full'>
-      <div className='w-full h-full flex flex-col mt-10 lg:mt-0 lg:flex-row gap-24 lg:gap-44 items-center justify-center '>
-        <div className='w-[350px] lg:w-[460px] h-full'>
+      <section className='w-full h-full flex flex-col mt-10 lg:mt-0 lg:flex-row gap-24 lg:gap-44 items-center justify-center '>
+        <article className='w-[350px] lg:w-[460px] h-full'>
           <a
             target='_blank'
             href='https://articulo.mercadolibre.com.ar/MLA-1183906200-jersey-maycam-evolve-edicion-especial-argentina-mundial-2022-_JM'
@@ -40,8 +40,8 @@ const Tienda = () => {
               </span>
             </div>
           </a>
-        </div>
-        <div className=' w-[350px] animate__animated animate__bounceInRight lg:w-[460px] h-full'>
+        </article>
+        <article className=' w-[350px] animate__animated animate__bounceInRight lg:w-[460px] h-full'>
           <a
             target='_blank'
             href='https://articulo.mercadolibre.com.ar/MLA-1133083845-jersey-oficial-equipos-esports-maycam-evolve-temporada-2022-_JM'
@@ -77,8 +77,8 @@ const Tienda = () => {
               </span>
             </div>
           </a>
-        </div>
-      </div>
+        </article>
+      </section>
     </main>
   );
 };

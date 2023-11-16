@@ -62,6 +62,7 @@ const Companies = () => {
             rounded-2xl
             lg:rounded-full
             border-x-2
+            border-[#715bd4]
             gap-3
             sm:gap-8
             md:gap-9

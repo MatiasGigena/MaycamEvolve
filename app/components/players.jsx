@@ -238,9 +238,9 @@ const Players = () => {
     },
   ];
   return (
-    <div className='relative mx-auto py-10 px-3 w-full max-w-8xl text-white'>
-      <div className='flex flex-col items-center'>
-        <div className='mt-10 mx-auto w-full max-w-sm sm:max-w-2xl lg:max-w-7xl'>
+    <main className='relative mx-auto py-10 px-3 w-full max-w-8xl text-white'>
+      <section className='flex flex-col items-center'>
+        <article className='mt-10 mx-auto w-full max-w-sm sm:max-w-2xl lg:max-w-7xl'>
           <ul className='grid grid-cols-6 gap-10 lg:gap-24'>
             {player.map(
               (players) =>
@@ -255,9 +255,9 @@ const Players = () => {
                       className='absolute top-0 left-0 w-full h-full object-[center_-10px] object-cover'
                     />
                     <div className='relative p-2 w-full flex flex-col items-center rounded bg-white bg-opacity-80'>
-                      <h3 className='text-base text-gray-800 font-bold tracking-wide'>
+                      <p className='text-base text-gray-800 font-bold tracking-wide'>
                         {players.gamerTag}
-                      </h3>
+                      </p>
                       <p className='text-sm text-gray-500 font-semibold'>
                         {players.nombre}
                       </p>
@@ -321,9 +321,9 @@ const Players = () => {
                 )
             )}
           </ul>
-        </div>
-      </div>
-    </div>
+        </article>
+      </section>
+    </main>
   );
 };
 

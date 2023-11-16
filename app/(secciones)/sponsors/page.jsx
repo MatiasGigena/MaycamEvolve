@@ -35,35 +35,35 @@ const Sponsors = () => {
     {
       name: 'SEAGATE',
       logo: '/logoswhite/SEAGATE white H.png',
-      url: 'https://musthaveapps.com/',
+      url: 'https://www.seagate.com/la/es/',
       description:
         'En Seagate, lideramos en almacenamiento de datos, respondiendo al crecimiento explosivo de la nube, inteligencia artificial y aprendizaje automático. Nuestra innovación utiliza ingeniería nanométrica y ciencia de materiales, priorizando la circularidad y sostenibilidad. Ofrecemos líderes densidades de área, impulsando una gama completa de dispositivos y servicios para todos los ecosistemas basados en datos. Inspirados en nuestros valores, buscamos constantemente la innovación para garantizar el almacenamiento seguro y desbloquear el valor de tus datos. ',
     },
     {
       name: 'GATORADE',
       logo: '/logoswhite/GATORADE white.png',
-      url: 'https://musthaveapps.com/',
+      url: 'https://www.gatorade.com/',
       description:
         'Gatorade, se destaca por ofrecer innovaciones en rendimiento deportivo. Con más de 40 años de experiencia y un enfoque en el estudio de los mejores atletas del mundo, la empresa se basa en investigaciones de hidratación y nutrición deportiva realizadas en el Gatorade Sports Science Institute. Su compromiso radica en proporcionar productos científicamente formulados que aborden las necesidades de combustible deportivo de atletas en todas las fases de su actividad atlética.',
     },
     {
       name: 'REDRAGON',
       logo: '/logoswhite/REDRAGON white.png',
-      url: 'https://musthaveapps.com/',
+      url: 'https://www.redragonzone.com/',
       description:
         'Eastern Times Technology Co., Ltd, fundada en 1996, es una de las principales fábricas de ratones y teclados en China. Con más de 1400 empleados, ofrece servicios de producción integrales. Como propietaria de Redragon, una marca destacada en periféricos de juegos, se compromete a brindar productos de alto rendimiento a nivel global. Con 20 años de experiencia, Redragon se destaca por su innovación en diseño e calidad. Su presencia de ventas abarca más de 30 países y aspira a proporcionar una vida de calidad y comodidad a sus usuarios.',
     },
     {
       name: 'SAN IGNACIO',
       logo: '/logoswhite/San Ignacio white.png',
-      url: 'https://musthaveapps.com/',
+      url: 'https://sanignacio.com.ar/index.html',
       description:
         'San Ignacio, fundada en 1939 en Rosario, Argentina, es conocida por su excelencia en la producción de dulce de leche y queso. Procesan más de 27 millones de litros de leche anualmente para producir dulce de leche, queso y productos frescos que son reconocidos por su calidad, tradición y han ganado premios, como el mejor queso azul del país en 2006. San Ignacio es elegida por otras marcas por su trayectoria, tradición y calidad para ubicarnos en el corazón de sus productos.',
     },
   ];
 
   return (
-    <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-10 py-20 items-start justify-start'>
+    <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-10 py-16 items-start justify-start'>
       <h1 className='text-white font-extralight px-10 text-4xl  lg:text-5xl'>
         Nuestros{' '}
         <span className='text-[#715bd4] font-light'>
@@ -118,7 +118,7 @@ const Sponsors = () => {
       </p>
       <section className=' grid place-items-start xlxl:grid-cols-2 grid-cols-1 px-5 xl:p-10 gap-10 overflow-hidden w-full'>
         {sponsors.map((sponsor, index) => (
-          <div
+          <article
             key={index}
             className='card lg:card-side w-full fondoNav2 h-full lg:h-[29rem]  rounded-3xl shadow-xl'
           >
@@ -148,7 +148,7 @@ const Sponsors = () => {
                 </button>
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </section>
     </main>

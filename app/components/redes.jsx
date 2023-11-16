@@ -18,7 +18,10 @@ const Redes = () => {
           className=' text-xl lg:text-4xl font-extralight'
           variants={mobileLinkVars}
         >
-          Nuestras redes
+          Nuestras{' '}
+          <span className='text-[#715bd4] font-light'>
+            redes
+          </span>
         </motion.p>
         <motion.div
           variants={mobileLinkVars}
@@ -84,19 +87,36 @@ const Redes = () => {
           variants={mobileLinkVars}
           className=' text-xl lg:text-4xl font-extralight'
         >
-          Contactos y Assets de prensa
+          Nuestros{' '}
+          <span className='text-[#715bd4] font-light'>
+            Departamentos
+          </span>
         </motion.p>
         <motion.ul
           variants={mobileLinkVars}
           className='flex flex-col gap-4 '
         >
           <li className='flex text-xs lg:text-base gap-32'>
-            <span>+541121795715</span>
-            <span> Matías Gigena</span>
+            <span className='w-24 '>General</span>
+            <span>
+              hola<span className='text-[#715bd4]'>@</span>
+              maycamevolve.com
+            </span>
           </li>
           <li className='flex text-xs lg:text-base gap-32'>
-            <span>+541121795715</span>
-            <span>Emanueal Gaggero</span>
+            <span className='w-24'>Marketing</span>
+            <span>
+              meg<span className='text-[#715bd4]'>@</span>
+              maycamevolve.com
+            </span>
+          </li>
+          <li className='flex text-xs lg:text-base gap-32'>
+            <span className='w-24'>Deportivo</span>
+            <span>
+              marketing
+              <span className='text-[#715bd4]'>@</span>
+              maycamevolve.com
+            </span>
           </li>
         </motion.ul>
       </div>

@@ -9,49 +9,17 @@ import { Facebook } from '@mui/icons-material';
 import { HiOutlineMail } from 'react-icons/hi';
 import Companies3 from '@/app/components/sponsors3';
 import { HiDownload } from 'react-icons/hi';
+import Departamentos from '@/app/components/departamentos';
 const Contacto = () => {
   return (
     <main className='h-[100vh] lg:h-[90vh] fondo3D w-full  flex items-start overflow-hidden px-10 '>
       <section className=' h-full lg:h-[70vh] w-full flex flex-col mt-10 xl:mt-16 gap-8 lg:gap-10 xl:gap-12'>
-        <div className='flex flex-col xl:h-40 gap-6 xl:gap-8 transition-opacity animate-[fade-in_1s_ease-in]  w-full xl:w-3/5 text-white'>
-          <p className=' text-2xl xl:text-4xl'>
-            Nuestros{' '}
-            <span className='text-[#715bd4]'>
-              Departamentos
-            </span>
-          </p>
-          <div className='h-full justify-start items-start flex-col gap-4 flex xl:flex-row xl:items-center xl:gap-16'>
-            <div className='flex border-2 hvr-fade border-[#715bd4] text-[#715bd4] font-medium rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start justify-start '>
-              <p className=' text-base xl:text-2xl'>
-                General
-              </p>
-              <p className='text-xs text-white xl:text-xl'>
-                hola@maycamevolve.com
-              </p>
-            </div>
-            <div className='flex border-2 hvr-fade border-[#715bd4] text-[#715bd4] font-medium rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start '>
-              <p className=' text-base xl:text-2xl'>
-                Deportivo
-              </p>
-              <p className='text-xs text-white xl:text-xl'>
-                meg@maycamevolve.com
-              </p>
-            </div>
-            <div className='flex border-2 hvr-fade border-[#715bd4] text-[#715bd4] font-medium rounded-2xl p-3 w-56 xl:w-auto xl:p-5 flex-col items-start '>
-              <p className=' text-base xl:text-2xl'>
-                Marketing
-              </p>
-              <p className='text-xs text-white xl:text-xl'>
-                marketing@maycamevolve.com
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className='flex flex-col transition-opacity animate-[fade-in_2s_ease-in]  h-20 w-full xl:w-1/2 text-white'>
-          <p className=' text-2xl text-[#715bd4] xl:text-4xl'>
+        <Departamentos />
+        <article className='flex flex-col transition-opacity animate-[fade-in_2s_ease-in]  h-20 w-full xl:w-1/2 text-white'>
+          <h3 className=' text-2xl text-[#715bd4] xl:text-4xl'>
             Social{' '}
             <span className='text-[#fff]'>Media</span>
-          </p>
+          </h3>
           <div className='flex gap-4 xl:gap-6  mt-5  text-white items-center'>
             <a
               href='https://www.instagram.com/maycamevolve/'
@@ -105,30 +73,33 @@ const Contacto = () => {
             >
               <BsDiscord style={{ fontSize: '1.5rem' }} />
             </a>
-            <a href='' target='_blank'>
+            <a
+              href='mailto:hola@maycamevolve.com'
+              target='_blank'
+            >
               <HiOutlineMail
                 style={{ fontSize: '1.5rem' }}
               />
             </a>
           </div>
-        </div>
-        <div className='flex flex-col transition-opacity animate-[fade-in_2s_ease-in]   relative h-20 w-full xl:w-1/2 text-white'>
-          <p className=' text-2xl xl:text-4xl text-[#715bd4]'>
+        </article>
+        <article className='flex flex-col transition-opacity animate-[fade-in_2s_ease-in]   relative h-20 w-full xl:w-1/2 text-white'>
+          <h4 className=' text-2xl xl:text-4xl text-[#715bd4]'>
             Sponsors
-          </p>
+          </h4>
           <Companies3 />
-        </div>
-        <div className='flex flex-col gap-8 xl:gap-10 justify-center items-start transition-opacity animate-[fade-in_2s_ease-in] mt-16 lg:mt-32  relative h-20 w-full xl:w-1/2 text-white'>
-          <p className=' text-2xl xl:text-4xl '>
+        </article>
+        <article className='flex flex-col gap-8 xl:gap-10 justify-center items-start transition-opacity animate-[fade-in_2s_ease-in] mt-16 lg:mt-32  relative h-20 w-full xl:w-1/2 text-white'>
+          <h5 className=' text-2xl xl:text-4xl '>
             Descarga{' '}
             <span className='text-[#715bd4]'>Assets</span> y{' '}
             <span className='text-[#715bd4]'>Gráficos</span>
-          </p>
+          </h5>
           <button className='border hvr-fade font-medium border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'>
             Download{' '}
             <HiDownload style={{ fontSize: '1.3rem' }} />
           </button>
-        </div>
+        </article>
       </section>
     </main>
   );
