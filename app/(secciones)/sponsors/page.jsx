@@ -34,7 +34,7 @@ const Sponsors = () => {
     },
     {
       name: 'SEAGATE',
-      logo: '/logoswhite/SEAGATE white H.png',
+      logo: '/logoswhite/SEAGATE WHITE H.png',
       url: 'https://www.seagate.com/la/es/',
       description:
         'En Seagate, lideramos en almacenamiento de datos, respondiendo al crecimiento explosivo de la nube, inteligencia artificial y aprendizaje automático. Nuestra innovación utiliza ingeniería nanométrica y ciencia de materiales, priorizando la circularidad y sostenibilidad. Ofrecemos líderes densidades de área, impulsando una gama completa de dispositivos y servicios para todos los ecosistemas basados en datos. Inspirados en nuestros valores, buscamos constantemente la innovación para garantizar el almacenamiento seguro y desbloquear el valor de tus datos. ',
