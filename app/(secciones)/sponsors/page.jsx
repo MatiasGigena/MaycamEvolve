@@ -129,7 +129,7 @@ const Sponsors = () => {
                   fill
                   alt='Album'
                   quality={100}
-                  className='object-contain '
+                  className='object-contain'
                 />
               </div>
             </figure>
