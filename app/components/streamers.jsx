@@ -141,6 +141,7 @@ const Streamers = () => {
                       </p>
                       <div className='flex items-center justify-center space-x-3 bg-top bg-cover'>
                         <a
+                          aria-label='Instagram'
                           target='_blank'
                           href={streamer.instagram}
                           className='transition-colors duration-300 bg-top bg-cover cursor-pointer hover:text-white text-blue-50'
@@ -148,6 +149,7 @@ const Streamers = () => {
                           <InstagramIcon />
                         </a>
                         <a
+                          aria-label='Tiktok'
                           target='_blank'
                           href={streamer.tiktok}
                           className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
@@ -157,6 +159,7 @@ const Streamers = () => {
                           />
                         </a>
                         <a
+                          aria-label='Yootube'
                           target='_blank'
                           href={streamer.youtube}
                           className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
@@ -164,6 +167,7 @@ const Streamers = () => {
                           <YouTubeIcon />
                         </a>
                         <a
+                          aria-label='Twitter'
                           target='_blank'
                           href={streamer.twitter}
                           className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
@@ -171,6 +175,7 @@ const Streamers = () => {
                           <TwitterIcon />
                         </a>
                         <a
+                          aria-label='Twitch'
                           target='_blank'
                           href={streamer.twitch}
                           className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'

@@ -30,36 +30,42 @@ const Footer = () => {
       <nav>
         <div className='flex gap-4 lg:gap-6  text-white items-center'>
           <a
+            aria-label='Instagram'
             href='https://www.instagram.com/maycamevolve/'
             target='_blank'
           >
             <InstagramIcon />
           </a>
           <a
+            aria-label='Tiktok'
             href='https://www.tiktok.com/@maycamevolve'
             target='_blank'
           >
             <BiLogoTiktok style={{ fontSize: '1.5rem' }} />
           </a>
           <a
+            aria-label='Twitter'
             href='https://twitter.com/maycamevolve/'
             target='_blank'
           >
             <TwitterIcon />
           </a>
           <a
+            aria-label='Youtube'
             href='https://www.youtube.com/c/MaycamEvolve/videos'
             target='_blank'
           >
             <YouTubeIcon />
           </a>
           <a
+            aria-label='Linkedin'
             href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
             target='_blank'
           >
             <BsLinkedin />
           </a>
           <a
+            aria-label='Behance'
             href='https://www.behance.net/maycamevolve'
             target='_blank'
           >
@@ -68,18 +74,20 @@ const Footer = () => {
             />
           </a>
           <a
+            aria-label='Facebook'
             href='https://www.facebook.com/MaycamEvolve/'
             target='_blank'
           >
             <Facebook />
           </a>
           <a
+            aria-label='Discord'
             href='https://discord.com/invite/r7qHmd6u6g'
             target='_blank'
           >
             <BsDiscord style={{ fontSize: '1.5rem' }} />
           </a>
-          <a href='' target='_blank'>
+          <a aria-label='Email' href='' target='_blank'>
             <HiOutlineMail style={{ fontSize: '1.5rem' }} />
           </a>
         </div>
