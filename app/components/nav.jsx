@@ -137,7 +137,7 @@ const Navbar = () => {
                 initial='initial'
                 animate='open'
                 exit='initial'
-                className='grid grid-cols-1  lg:place-content-center lg:grid-cols-3 mt-8 lg:mt-0 h-full'
+                className='grid grid-cols-1  lg:place-content-center lg:grid-cols-3 mt-6 lg:mt-0 h-full'
               >
                 <div className='flex flex-col  gap-4 justify-center lg:gap-20'>
                   {navLinks.map((link, index) => {

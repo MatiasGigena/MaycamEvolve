@@ -12,7 +12,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Redes = () => {
   return (
-    <div className='flex flex-col w-full mt-3 gap-4 lg:w-[75%] lg:mt-12 lg:gap-28  text-white '>
+    <div className='flex flex-col w-full mt-2 gap-4 lg:w-[75%] lg:mt-12 lg:gap-28  text-white '>
       <div className='flex flex-col gap-5  overflow-hidden'>
         <motion.p
           className=' text-xl lg:text-4xl font-extralight'
@@ -82,7 +82,7 @@ const Redes = () => {
           </a>
         </motion.div>
       </div>
-      <div className='flex flex-col overflow-hidden gap-8'>
+      <div className='flex flex-col overflow-hidden gap-4'>
         <motion.p
           variants={mobileLinkVars}
           className=' text-xl lg:text-4xl font-extralight'
@@ -96,22 +96,22 @@ const Redes = () => {
           variants={mobileLinkVars}
           className='flex flex-col gap-4 '
         >
-          <li className='flex text-xs lg:text-base gap-32'>
-            <span className='w-24 '>General</span>
+          <li className='flex text-xs lg:text-base gap-16 lg:gap-32'>
+            <span className='w-16 lg:w-24 '>General</span>
             <span>
               hola<span className='text-[#715bd4]'>@</span>
               maycamevolve.com
             </span>
           </li>
-          <li className='flex text-xs lg:text-base gap-32'>
-            <span className='w-24'>Marketing</span>
+          <li className='flex text-xs lg:text-base gap-16 lg:gap-32'>
+            <span className='w-16 lg:w-24'>Marketing</span>
             <span>
               meg<span className='text-[#715bd4]'>@</span>
               maycamevolve.com
             </span>
           </li>
-          <li className='flex text-xs lg:text-base gap-32'>
-            <span className='w-24'>Deportivo</span>
+          <li className='flex text-xs lg:text-base gap-16 lg:gap-32'>
+            <span className='w-16 lg:w-24'>Deportivo</span>
             <span>
               marketing
               <span className='text-[#715bd4]'>@</span>
