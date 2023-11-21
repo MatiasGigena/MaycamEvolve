@@ -17,12 +17,12 @@ const Noticias = () => {
   }, []);
 
   return (
-    <main className='min-h-screen relative fondo3D py-14 px-6 w-full flex flex-col items-start gap-6 lg:gap-8 justify-start'>
+    <main className='min-h-screen relative fondo3D py-16 px-6 w-full flex flex-col items-start gap-6 lg:gap-8 justify-start'>
       <h1 className='text-white animate__animated animate__fadeInDown text-4xl lg:text-5xl'>
         El <span className='text-[#715bd4]'>Panel</span> de{' '}
         <span className='text-[#715bd4]'>Noticias</span>
       </h1>
-      <div className='w-full h-full mt-5'>
+      <div className='w-full h-full mt-3'>
         <div
           className='elfsight-app-7619ce24-5a7d-4557-85f9-dced8a5449f6'
           data-elfsight-app-lazy
