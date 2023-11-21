@@ -36,7 +36,7 @@ const Tienda = () => {
                 los Esports en Argentina.
               </p>
               <span className='mt-3 inline-block hvr-bounce-to-right bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white'>
-                Shop Now
+                Compra YA
               </span>
             </div>
           </a>
@@ -73,7 +73,7 @@ const Tienda = () => {
                 reflex y flock del logo.
               </p>
               <span className='mt-3 inline-block hvr-bounce-to-right bg-black px-5 py-3 text-xs font-medium uppercase tracking-wide text-white'>
-                Shop Now
+                Compra YA
               </span>
             </div>
           </a>

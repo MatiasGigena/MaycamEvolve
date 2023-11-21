@@ -75,10 +75,7 @@ const Streamers = () => {
       img: '/images/tiziana.png',
       instagram:
         'https://www.instagram.com/sharontiziana_/',
-      tiktok: 'https://www.tiktok.com/',
       twitch: 'https://www.twitch.tv/tizianabj_',
-      youtube: 'https://www.youtube.com/@',
-      twitter: 'https://twitter.com/',
     },
     // {
     //   nombre: 'MATI FIFA',
@@ -96,9 +93,6 @@ const Streamers = () => {
       img: '/images/fernanda.webp',
       instagram:
         'https://www.instagram.com/russofernandaa/',
-      tiktok: 'https://www.tiktok.com/',
-      twitch: 'https://www.twitch.tv/',
-      youtube: 'https://www.youtube.com/',
       twitter: 'https://twitter.com/ItsFerRusso',
     },
   ];
@@ -140,48 +134,58 @@ const Streamers = () => {
                         {streamer.nacionalidad}
                       </p>
                       <div className='flex items-center justify-center space-x-3 bg-top bg-cover'>
-                        <a
-                          aria-label='Instagram'
-                          target='_blank'
-                          href={streamer.instagram}
-                          className='transition-colors duration-300 bg-top bg-cover cursor-pointer hover:text-white text-blue-50'
-                        >
-                          <InstagramIcon />
-                        </a>
-                        <a
-                          aria-label='Tiktok'
-                          target='_blank'
-                          href={streamer.tiktok}
-                          className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
-                        >
-                          <BiLogoTiktok
-                            style={{ fontSize: '1.3rem' }}
-                          />
-                        </a>
-                        <a
-                          aria-label='Yootube'
-                          target='_blank'
-                          href={streamer.youtube}
-                          className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
-                        >
-                          <YouTubeIcon />
-                        </a>
-                        <a
-                          aria-label='Twitter'
-                          target='_blank'
-                          href={streamer.twitter}
-                          className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
-                        >
-                          <TwitterIcon />
-                        </a>
-                        <a
-                          aria-label='Twitch'
-                          target='_blank'
-                          href={streamer.twitch}
-                          className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
-                        >
-                          <FaTwitch />
-                        </a>
+                        {streamer.instagram && (
+                          <a
+                            aria-label='Instagram'
+                            target='_blank'
+                            href={streamer.instagram}
+                            className='transition-colors duration-300 bg-top bg-cover cursor-pointer hover:text-white text-blue-50'
+                          >
+                            <InstagramIcon />
+                          </a>
+                        )}
+                        {streamer.tiktok && (
+                          <a
+                            aria-label='Tiktok'
+                            target='_blank'
+                            href={streamer.tiktok}
+                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                          >
+                            <BiLogoTiktok
+                              style={{ fontSize: '1.3rem' }}
+                            />
+                          </a>
+                        )}
+                        {streamer.youtube && (
+                          <a
+                            aria-label='Yootube'
+                            target='_blank'
+                            href={streamer.youtube}
+                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                          >
+                            <YouTubeIcon />
+                          </a>
+                        )}
+                        {streamer.twitter && (
+                          <a
+                            aria-label='Twitter'
+                            target='_blank'
+                            href={streamer.twitter}
+                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                          >
+                            <TwitterIcon />
+                          </a>
+                        )}
+                        {streamer.twitch && (
+                          <a
+                            aria-label='Twitch'
+                            target='_blank'
+                            href={streamer.twitch}
+                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                          >
+                            <FaTwitch />
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
