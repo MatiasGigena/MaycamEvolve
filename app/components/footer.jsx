@@ -9,8 +9,8 @@ import { Facebook } from '@mui/icons-material';
 import { HiOutlineMail } from 'react-icons/hi';
 const Footer = () => {
   return (
-    <footer className='footer borderB footer-center p-10 bg-black fondoNav2 text-white'>
-      <nav className='grid grid-flow-col gap-4'>
+    <footer className='footer borderB footer-center p-8 lg:p-10 bg-black fondoNav2 text-white'>
+      <nav className='grid grid-flow-col gap-4 text-xs lg:text-base '>
         <a href='/equipos' className='link link-hover'>
           Equipo
         </a>
@@ -93,7 +93,7 @@ const Footer = () => {
         </div>
       </nav>
       <aside>
-        <p>
+        <p className='text-xs lg:text-base'>
           Copyright © 2023 - All right reserved by Matías
           Gigena.
         </p>

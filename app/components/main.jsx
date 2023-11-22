@@ -2,8 +2,10 @@ import Image from 'next/image';
 import Companies2 from './sponsors2';
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import Streamers from './streamers';
+import useDimension from '@/hooks/useDimension';
 
 const HomePage = () => {
+  const { width } = useDimension();
   return (
     <section className='min-h-screen w-full  flex flex-col items-center md:px-10 lg:px-12 xl:px-16 xxl:px-20 gap-2 pb-9 justify-start'>
       <div className='grid grid-cols-1  lg:grid-cols-3 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-10 xl:pt-10 w-full'>
@@ -69,16 +71,53 @@ const HomePage = () => {
             </span>
           </p>
         </div>
-        <div className='overflow-hidden borderB lg:rounded-[20px] w-[90%] lg:w-auto'>
-          <TwitterTimelineEmbed
-            noBorders
-            options={{
-              height: 800,
-              width: 790,
-            }}
-            screenName='MaycamEvolve'
-            theme='dark'
-          />
+        <div className='lg:overflow-hidden w-fit borderB rounded-[20px] lg:w-auto'>
+          {width && width >= 768 ? (
+            <TwitterTimelineEmbed
+              noBorders
+              options={{
+                height: 800,
+                width: 790,
+              }}
+              screenName='MaycamEvolve'
+              theme='dark'
+            />
+          ) : (
+            <div className='flex'>
+              <a
+                href='https://twitter.com/maycamevolve/'
+                target='_blank'
+                className='btn border-none text-xs text-white fondoNav2'
+              >
+                {' '}
+                Twitter{' '}
+              </a>
+              <a
+                href='https://www.instagram.com/maycamevolve/'
+                target='_blank'
+                className='btn border-none text-xs text-white fondoNav2'
+              >
+                {' '}
+                Instagram{' '}
+              </a>
+              <a
+                href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
+                target='_blank'
+                className='btn border-none text-xs text-white fondoNav2'
+              >
+                {' '}
+                Linkedin{' '}
+              </a>
+              <a
+                href='https://www.youtube.com/c/MaycamEvolve/videos'
+                target='_blank'
+                className='btn border-none text-xs text-white fondoNav2'
+              >
+                {' '}
+                Youtube{' '}
+              </a>
+            </div>
+          )}
         </div>
       </div>
       <Streamers />
