@@ -19,7 +19,7 @@ body {
   background: black;
 }
 .cursor-pointer2 {
-  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=173637'),
+  cursor: url('../public/images/Link Select (Neon Purple).cur'),
     auto;
 }
 
