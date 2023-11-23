@@ -9,6 +9,8 @@
 html {
   scroll-behavior: smooth;
   background-color: black;
+  cursor: url('../public/images/NeonCursor03-Purple.cur'),
+    auto;
 }
 body {
   margin: 0;
@@ -16,28 +18,16 @@ body {
   overflow-x: hidden;
   background: black;
 }
+.cursor-pointer2 {
+  cursor: url('http://www.rw-designer.com/cursor-extern.php?id=173637'),
+    auto;
+}
 
 .custom-cursor {
   position: fixed;
   width: 10px;
   height: 10px;
   background-color: #715bd4;
-  box-shadow: 0px 1px 2px rgba(18, 214, 214, 0.5),
-    0px 2px 8px rgba(18, 214, 214, 0.5),
-    0px 4px 16px rgba(18, 214, 214, 0.5),
-    0px 8px 72px rgba(18, 214, 214, 0.5),
-    0px -1px 4px rgba(18, 214, 214, 0.5),
-    0px -2px 8px rgba(18, 214, 214, 0.5),
-    0px -4px 16px rgba(18, 214, 214, 0.5),
-    0px -8px 72px rgba(18, 214, 214, 0.5),
-    0px 1px 4px rgb(255, 0, 255),
-    0px 2px 8px rgb(255, 0, 255),
-    0px 4px 16px rgb(255, 0, 255),
-    0px 8px 16px rgb(255, 0, 255),
-    0px -1px 4px rgb(255, 0, 255),
-    0px -2px 8px rgb(255, 0, 255),
-    0px -4px 16px rgb(255, 0, 255),
-    0px -8px 16px rgb(255, 0, 255);
   border-radius: 50%;
   pointer-events: none;
   z-index: 998;
@@ -128,6 +118,51 @@ body {
 .hvr-underline-from-left:active:before {
   right: 0;
 }
+.hvr-underline-from-left2 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+}
+.hvr-underline-from-left2:before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 27px;
+  background: #fff;
+  box-shadow: 0px 1px 2px rgba(18, 214, 214, 0.5),
+    0px 2px 4px rgba(18, 214, 214, 0.5),
+    0px 4px 8px rgba(18, 214, 214, 0.5),
+    0px 8px 16px rgba(18, 214, 214, 0.5),
+    0px -1px 2px rgba(18, 214, 214, 0.5),
+    0px -2px 4px rgba(18, 214, 214, 0.5),
+    0px -4px 8px rgba(18, 214, 214, 0.5),
+    0px -8px 16px rgba(18, 214, 214, 0.5),
+    0px 1px 2px rgb(255, 0, 255),
+    0px 2px 4px rgb(255, 0, 255),
+    0px 4px 8px rgb(255, 0, 255),
+    0px 8px 16px rgb(255, 0, 255),
+    0px -1px 2px rgb(255, 0, 255),
+    0px -2px 4px rgb(255, 0, 255),
+    0px -4px 8px rgb(255, 0, 255),
+    0px -8px 16px rgb(255, 0, 255);
+  height: 2px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left2:hover:before,
+.hvr-underline-from-left2:focus:before,
+.hvr-underline-from-left2:active:before {
+  right: 0;
+}
 
 @media (max-width: 1024px) {
   .hvr-underline-from-left {
@@ -138,6 +173,9 @@ body {
   }
   .selected {
     display: none;
+  }
+  .borderBNav {
+    box-shadow: none !important;
   }
 }
 
@@ -203,6 +241,24 @@ body {
 }
 
 .borderB {
+  box-shadow: 0px 1px 2px rgba(18, 214, 214, 0.5),
+    0px 2px 4px rgba(18, 214, 214, 0.5),
+    0px 4px 8px rgba(18, 214, 214, 0.5),
+    0px 8px 16px rgba(18, 214, 214, 0.5),
+    0px -1px 2px rgba(18, 214, 214, 0.5),
+    0px -2px 4px rgba(18, 214, 214, 0.5),
+    0px -4px 8px rgba(18, 214, 214, 0.5),
+    0px -8px 16px rgba(18, 214, 214, 0.5),
+    0px 1px 2px rgb(255, 0, 255),
+    0px 2px 4px rgb(255, 0, 255),
+    0px 4px 8px rgb(255, 0, 255),
+    0px 8px 16px rgb(255, 0, 255),
+    0px -1px 2px rgb(255, 0, 255),
+    0px -2px 4px rgb(255, 0, 255),
+    0px -4px 8px rgb(255, 0, 255),
+    0px -8px 16px rgb(255, 0, 255);
+}
+.borderBNav {
   box-shadow: 0px 1px 2px rgba(18, 214, 214, 0.5),
     0px 2px 4px rgba(18, 214, 214, 0.5),
     0px 4px 8px rgba(18, 214, 214, 0.5),

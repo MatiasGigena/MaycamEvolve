@@ -30,36 +30,42 @@ const Redes = () => {
           <a
             href='https://www.instagram.com/maycamevolve/'
             target='_blank'
+            className='cursor-pointer2'
           >
             <InstagramIcon />
           </a>
           <a
             href='https://www.tiktok.com/@maycamevolve'
             target='_blank'
+            className='cursor-pointer2'
           >
             <BiLogoTiktok style={{ fontSize: '1.5rem' }} />
           </a>
           <a
             href='https://twitter.com/maycamevolve/'
             target='_blank'
+            className='cursor-pointer2'
           >
             <TwitterIcon />
           </a>
           <a
             href='https://www.youtube.com/c/MaycamEvolve/videos'
             target='_blank'
+            className='cursor-pointer2'
           >
             <YouTubeIcon />
           </a>
           <a
             href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
             target='_blank'
+            className='cursor-pointer2'
           >
             <BsLinkedin />
           </a>
           <a
             href='https://www.behance.net/maycamevolve'
             target='_blank'
+            className='cursor-pointer2'
           >
             <AiFillBehanceCircle
               style={{ fontSize: '1.5rem' }}
@@ -68,16 +74,22 @@ const Redes = () => {
           <a
             href='https://www.facebook.com/MaycamEvolve/'
             target='_blank'
+            className='cursor-pointer2'
           >
             <Facebook />
           </a>
           <a
             href='https://discord.com/invite/r7qHmd6u6g'
             target='_blank'
+            className='cursor-pointer2'
           >
             <BsDiscord style={{ fontSize: '1.5rem' }} />
           </a>
-          <a href='' target='_blank'>
+          <a
+            href=''
+            target='_blank'
+            className='cursor-pointer2'
+          >
             <HiOutlineMail style={{ fontSize: '1.5rem' }} />
           </a>
         </motion.div>
@@ -96,21 +108,21 @@ const Redes = () => {
           variants={mobileLinkVars}
           className='flex flex-col gap-4 '
         >
-          <li className='flex text-xs lg:text-base gap-16 lg:gap-32'>
+          <li className='flex text-xs lg:text-base gap-16 lg:gap-20'>
             <span className='w-16 lg:w-24 '>General</span>
             <span>
               hola<span className='text-[#715bd4]'>@</span>
               maycamevolve.com
             </span>
           </li>
-          <li className='flex text-xs lg:text-base gap-16 lg:gap-32'>
+          <li className='flex text-xs lg:text-base gap-16 lg:gap-20'>
             <span className='w-16 lg:w-24'>Marketing</span>
             <span>
               meg<span className='text-[#715bd4]'>@</span>
               maycamevolve.com
             </span>
           </li>
-          <li className='flex text-xs lg:text-base gap-16 lg:gap-32'>
+          <li className='flex text-xs lg:text-base gap-16 lg:gap-20'>
             <span className='w-16 lg:w-24'>Deportivo</span>
             <span>
               marketing

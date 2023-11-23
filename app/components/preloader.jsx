@@ -4,7 +4,6 @@ import { motion } from 'framer-motion';
 const Preloader = ({ setIsLoading }) => {
   const handleVideoEnd = () => {
     setIsLoading(false);
-    document.body.style.cursor = 'default';
     window.scrollTo(0, 0);
   };
   return (

@@ -99,17 +99,18 @@ const Streamers = () => {
   return (
     <section id='streamers' className=' mt-4 lg:mt-10'>
       <div className='py-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20'>
-        <div className='mb-10 ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-16'>
-          <p className='inline-block px-3 py-px mb-3 text-sm font-semibold tracking-wider text-white uppercase bg-[#715bd4] rounded-full'>
-            Nuestros Creadores de Contenido
+        <div className='mb-10 flex flex-col ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-3xl md:mb-16'>
+          <p className='inline-block px-3 py-px mb-3 text-sm font-normal tracking-wider text-white uppercase rounded-full'>
+            Maycam Evolve
           </p>
-          <div className='mb-6 ml-auto mr-auto font-sans tracking-tight text-gray-900 bg-top bg-cover max-w-7xl md:mx-auto'></div>
-          <p className='text-base text-white/75 md:text-lg'>
+          <p className='inline-block text-4xl px-3 py-px sm:text-5xl lg:text-7xl font-normal tracking-wider text-white uppercase rounded-full'>
+            PANDAS{' '}
+            <span className='text-[#715bd4]'>MEMBERS</span>
+          </p>
+          <div className='ml-auto mb-4 mr-auto font-sans tracking-tight text-gray-900 bg-top bg-cover max-w-7xl md:mx-auto'></div>
+          <p className='text-base px-3 text-white/75 md:text-lg'>
             Echa un vistazo a nuestro impresionante equipo
             de creadores en Maycam.{' '}
-            <span className='text-[#715bd4]'>
-              #EvolveYourGame
-            </span>
           </p>
         </div>
         <div className='grid gap-10 sm:grid-cols-2 lg:grid-cols-4'>
@@ -139,7 +140,7 @@ const Streamers = () => {
                             aria-label='Instagram'
                             target='_blank'
                             href={streamer.instagram}
-                            className='transition-colors duration-300 bg-top bg-cover cursor-pointer hover:text-white text-blue-50'
+                            className='transition-colors duration-300 bg-top bg-cover cursor-pointer2 hover:text-white text-blue-50'
                           >
                             <InstagramIcon />
                           </a>
@@ -149,7 +150,7 @@ const Streamers = () => {
                             aria-label='Tiktok'
                             target='_blank'
                             href={streamer.tiktok}
-                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                            className='transition-colors duration-300 cursor-pointer2 text-blue-50 hover:text-white'
                           >
                             <BiLogoTiktok
                               style={{ fontSize: '1.3rem' }}
@@ -161,7 +162,7 @@ const Streamers = () => {
                             aria-label='Yootube'
                             target='_blank'
                             href={streamer.youtube}
-                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                            className='transition-colors duration-300 cursor-pointer2 text-blue-50 hover:text-white'
                           >
                             <YouTubeIcon />
                           </a>
@@ -171,7 +172,7 @@ const Streamers = () => {
                             aria-label='Twitter'
                             target='_blank'
                             href={streamer.twitter}
-                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                            className='transition-colors duration-300 cursor-pointer2 text-blue-50 hover:text-white'
                           >
                             <TwitterIcon />
                           </a>
@@ -181,7 +182,7 @@ const Streamers = () => {
                             aria-label='Twitch'
                             target='_blank'
                             href={streamer.twitch}
-                            className='transition-colors duration-300 cursor-pointer text-blue-50 hover:text-white'
+                            className='transition-colors duration-300 cursor-pointer2 text-blue-50 hover:text-white'
                           >
                             <FaTwitch />
                           </a>

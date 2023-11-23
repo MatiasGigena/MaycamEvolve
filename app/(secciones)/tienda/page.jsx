@@ -9,7 +9,7 @@ const Tienda = () => {
           <a
             target='_blank'
             href='https://articulo.mercadolibre.com.ar/MLA-1183906200-jersey-maycam-evolve-edicion-especial-argentina-mundial-2022-_JM'
-            className='group relative block'
+            className='group relative block cursor-pointer2'
           >
             <div className='relative h-[500px] animate__animated animate__bounceInLeft sm:h-[650px] transition-opacity animate-[fade-in_1s_ease-in] '>
               <Image
@@ -45,7 +45,7 @@ const Tienda = () => {
           <a
             target='_blank'
             href='https://articulo.mercadolibre.com.ar/MLA-1133083845-jersey-oficial-equipos-esports-maycam-evolve-temporada-2022-_JM'
-            className='group relative block'
+            className='group relative block cursor-pointer2'
           >
             <div className='relative h-[500px] sm:h-[650px] transition-opacity animate-[fade-in_1s_ease-in] '>
               <Image

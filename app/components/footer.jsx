@@ -11,19 +11,34 @@ const Footer = () => {
   return (
     <footer className='footer borderB footer-center p-8 lg:p-10 bg-black fondoNav2 text-white'>
       <nav className='grid grid-flow-col gap-4 text-xs lg:text-base '>
-        <a href='/equipos' className='link link-hover'>
+        <a
+          href='/equipos'
+          className=' hvr-underline-from-left2 cursor-pointer2'
+        >
           Equipo
         </a>
-        <a href='/noticias' className='link link-hover'>
+        <a
+          href='/noticias'
+          className=' hvr-underline-from-left2 cursor-pointer2'
+        >
           Noticias
         </a>
-        <a href='/tienda' className='link link-hover'>
+        <a
+          href='/tienda'
+          className=' hvr-underline-from-left2 cursor-pointer2'
+        >
           Tienda
         </a>
-        <a href='/contacto' className='link link-hover'>
+        <a
+          href='/contacto'
+          className=' hvr-underline-from-left2 cursor-pointer2'
+        >
           Contacto
         </a>
-        <a href='/sponsors' className='link link-hover'>
+        <a
+          href='/sponsors'
+          className=' hvr-underline-from-left2 cursor-pointer2'
+        >
           Sponsors
         </a>
       </nav>
@@ -33,6 +48,7 @@ const Footer = () => {
             aria-label='Instagram'
             href='https://www.instagram.com/maycamevolve/'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <InstagramIcon />
           </a>
@@ -40,6 +56,7 @@ const Footer = () => {
             aria-label='Tiktok'
             href='https://www.tiktok.com/@maycamevolve'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <BiLogoTiktok style={{ fontSize: '1.5rem' }} />
           </a>
@@ -47,6 +64,7 @@ const Footer = () => {
             aria-label='Twitter'
             href='https://twitter.com/maycamevolve/'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <TwitterIcon />
           </a>
@@ -54,6 +72,7 @@ const Footer = () => {
             aria-label='Youtube'
             href='https://www.youtube.com/c/MaycamEvolve/videos'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <YouTubeIcon />
           </a>
@@ -61,6 +80,7 @@ const Footer = () => {
             aria-label='Linkedin'
             href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <BsLinkedin />
           </a>
@@ -68,6 +88,7 @@ const Footer = () => {
             aria-label='Behance'
             href='https://www.behance.net/maycamevolve'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <AiFillBehanceCircle
               style={{ fontSize: '1.5rem' }}
@@ -77,6 +98,7 @@ const Footer = () => {
             aria-label='Facebook'
             href='https://www.facebook.com/MaycamEvolve/'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <Facebook />
           </a>
@@ -84,10 +106,16 @@ const Footer = () => {
             aria-label='Discord'
             href='https://discord.com/invite/r7qHmd6u6g'
             target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <BsDiscord style={{ fontSize: '1.5rem' }} />
           </a>
-          <a aria-label='Email' href='' target='_blank'>
+          <a
+            aria-label='Email'
+            href=''
+            target='_blank'
+            className='cursor-pointer2 hover:text-[#715bd4]'
+          >
             <HiOutlineMail style={{ fontSize: '1.5rem' }} />
           </a>
         </div>

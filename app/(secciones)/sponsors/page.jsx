@@ -66,13 +66,13 @@ const Sponsors = () => {
   return (
     <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-10 py-16 items-start justify-start'>
       <div className='flex flex-col gap-8 lg:gap-10 animate__animated animate__lightSpeedInLeft'>
-        <h1 className='text-white font-extralight px-10 text-4xl  lg:text-5xl'>
+        <h1 className='text-white font-extralight px-10 text-4xl text-center lg:text-left  lg:text-5xl'>
           Nuestros{' '}
           <span className='text-[#715bd4] font-light'>
             Sponsors
           </span>
         </h1>
-        <p className='leading-[40px] lg:leading-[60px] px-10  font-light text-left text-base  lg:text-2xl w-full xlxl:w-4/5 text-white'>
+        <p className='leading-[40px] lg:leading-[60px] px-10  font-light text-center lg:text-left text-base  lg:text-2xl w-full xlxl:w-4/5 text-white'>
           Hemos tenido el{' '}
           <span className='text-[#715bd4] font-medium'>
             privilegio
@@ -119,13 +119,13 @@ const Sponsors = () => {
           electrónicos.
         </p>
       </div>
-      <section className=' grid place-items-start xlxl:grid-cols-2 grid-cols-1 px-5 xl:p-10 gap-10 overflow-hidden w-full'>
+      <section className=' grid lg:place-items-start xlxl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 grid-cols-1 place-items-center  px-5 xl:p-10 md:gap-x-5 gap-10 md:gap-y-10 lg:gap-10 overflow-hidden w-full'>
         {sponsors.map((sponsor, index) => (
           <article
             key={index}
-            className='card lg:card-side w-full fondoNav2 h-full lg:h-[29rem]  rounded-3xl shadow-xl'
+            className='card card-side w-[22.5rem] md:w-[22rem] p-4 lg:p-0 lg:w-full fondoNav2 h-full lg:h-[29rem]  rounded-3xl shadow-xl'
           >
-            <figure className='w-auto min-w-[100px] lg:min-w-[400px] flex items-center justify-center'>
+            <figure className=' w-[150px] lg:min-w-[400px] flex items-center justify-center'>
               <div className='relative flex items-center justify-center h-full w-56'>
                 <Image
                   src={sponsor.logo}
@@ -136,19 +136,23 @@ const Sponsors = () => {
                 />
               </div>
             </figure>
-            <div className='card-body'>
-              <h2 className='card-title text-white'>
+            <div className='card-body items-center justify-center lg:items-stretch '>
+              <h2 className='card-title text-white text-[14px] lg:text-xl'>
                 {sponsor.name}
               </h2>
-              <p className='text-white   lg:min-h-[216px]   xl:w-full'>
+              <p className='text-white hidden lg:flex  lg:min-h-[216px]   xl:w-full'>
                 {sponsor.description}
               </p>
               <div className='card-actions mt-5 justify-end'>
-                <button className='btn hvr-fade hover:border-[#715bd4] bg-[#000] text-white border border-[#715bd4]'>
+                <a
+                  href={sponsor.url}
+                  target='_blank'
+                  className='btn hvr-fade cursor-pointer2 hover:border-[#715bd4] bg-[#000] text-white border border-[#715bd4]'
+                >
                   <RxOpenInNewWindow
                     style={{ fontSize: '28px' }}
                   />
-                </button>
+                </a>
               </div>
             </div>
           </article>

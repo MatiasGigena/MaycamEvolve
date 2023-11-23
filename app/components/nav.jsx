@@ -37,14 +37,14 @@ const Navbar = () => {
       classes +=
         'selected transition-opacity animate-[fade-out_1s_ease-out]';
     } else {
-      classes += 'hvr-underline-from-left cursor-pointer';
+      classes += 'hvr-underline-from-left cursor-pointer2';
     }
     return classes;
   };
 
   return (
-    <section className='w-full borderB z-50 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
-      <ul className='flex justify-between ml-4 lg:ml-8 font-semibold items-center text-xl w-full text-white'>
+    <section className='w-full borderBNav z-40 shadow-xl h-20 lg:h-24 fondoNav bg-[#1a1e1c] relative flex items-center'>
+      <ul className='flex justify-between ml-4 lg:ml-8 font-semibold items-center text-lg w-full text-white'>
         <li>
           <a href='/main'>
             <Image
@@ -55,12 +55,17 @@ const Navbar = () => {
               quality={100}
               priority={true}
               style={{ height: 'auto' }}
-              className='w-[55%] lg:w-full cursor-pointer'
+              className='w-[55%] lg:w-full cursor-pointer2'
             />
           </a>
         </li>
         <li className={activeLinks('miembros')}>
-          <a href='/main#streamers'>Miembros</a>
+          <a
+            className='cursor-pointer2'
+            href='/main#streamers'
+          >
+            Miembros
+          </a>
         </li>
         <li
           className={activeLinks('equipos')}
@@ -69,6 +74,14 @@ const Navbar = () => {
           }}
         >
           Equipos
+        </li>
+        <li
+          className={activeLinks('sponsors')}
+          onClick={() => {
+            router.push('/sponsors');
+          }}
+        >
+          Sponsors
         </li>
         <li
           className={activeLinks('noticias')}
@@ -108,7 +121,7 @@ const Navbar = () => {
             initial='initial'
             animate='animate'
             exit='exit'
-            className='fixed left-0 top-0 w-full h-screen origin-top p-10 z-50 bg-[#000] fondo4D '
+            className='fixed left-0 top-0 w-full h-screen origin-top p-10 z-[998] bg-[#000] fondo4D '
           >
             <div className='flex h-full flex-col justify-center'>
               <motion.div

@@ -24,58 +24,78 @@ const Contacto = () => {
             <a
               href='https://www.instagram.com/maycamevolve/'
               target='_blank'
+              className='cursor-pointer2'
             >
               <InstagramIcon />
             </a>
             <a
               href='https://www.tiktok.com/@maycamevolve'
               target='_blank'
+              className='cursor-pointer2'
             >
               <BiLogoTiktok
-                style={{ fontSize: '1.5rem' }}
+                style={{
+                  fontSize: '1.5rem',
+                  color: '#715bd4',
+                }}
               />
             </a>
             <a
               href='https://twitter.com/maycamevolve/'
               target='_blank'
+              className='cursor-pointer2'
             >
               <TwitterIcon />
             </a>
             <a
               href='https://www.youtube.com/c/MaycamEvolve/videos'
               target='_blank'
+              className='cursor-pointer2'
             >
-              <YouTubeIcon />
+              <YouTubeIcon style={{ color: '#715bd4' }} />
             </a>
             <a
               href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
               target='_blank'
+              className='cursor-pointer2'
             >
               <BsLinkedin />
             </a>
             <a
               href='https://www.behance.net/maycamevolve'
               target='_blank'
+              className='cursor-pointer2'
             >
               <AiFillBehanceCircle
-                style={{ fontSize: '1.5rem' }}
+                style={{
+                  fontSize: '1.5rem',
+                  color: '#715bd4',
+                }}
               />
             </a>
             <a
               href='https://www.facebook.com/MaycamEvolve/'
               target='_blank'
+              className='cursor-pointer2'
             >
               <Facebook />
             </a>
             <a
               href='https://discord.com/invite/r7qHmd6u6g'
               target='_blank'
+              className='cursor-pointer2'
             >
-              <BsDiscord style={{ fontSize: '1.5rem' }} />
+              <BsDiscord
+                style={{
+                  fontSize: '1.5rem',
+                  color: '#715bd4',
+                }}
+              />
             </a>
             <a
               href='mailto:hola@maycamevolve.com'
               target='_blank'
+              className='cursor-pointer2'
             >
               <HiOutlineMail
                 style={{ fontSize: '1.5rem' }}
@@ -95,7 +115,7 @@ const Contacto = () => {
             <span className='text-[#715bd4]'>Assets</span> y{' '}
             <span className='text-[#715bd4]'>Gráficos</span>
           </h5>
-          <button className='border hvr-fade font-medium border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'>
+          <button className='border cursor-pointer2 hvr-fade font-medium border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'>
             Download{' '}
             <HiDownload style={{ fontSize: '1.3rem' }} />
           </button>

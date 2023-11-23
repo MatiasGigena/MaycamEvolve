@@ -266,7 +266,7 @@ const Players = () => {
                           <a
                             href={players.twitch}
                             target='_blank'
-                            className='text-gray-700 hover:text-pink-600'
+                            className='text-gray-700 hover:text-[#715bd4] cursor-pointer2'
                           >
                             <PiTwitchLogoFill />
                           </a>
@@ -275,7 +275,7 @@ const Players = () => {
                           <a
                             href={players.twitter}
                             target='_blank'
-                            className='text-gray-700 hover:text-pink-600'
+                            className='text-gray-700 hover:text-[#715bd4] cursor-pointer2'
                           >
                             <svg
                               className='w-4 h-4'
@@ -292,7 +292,7 @@ const Players = () => {
                           <a
                             href={players.ig}
                             target='_blank'
-                            className='text-gray-700  hover:text-pink-600'
+                            className='text-gray-700  hover:text-[#715bd4] cursor-pointer2'
                           >
                             <BiLogoInstagramAlt
                               style={{ fontSize: '1.1rem' }}
@@ -303,7 +303,7 @@ const Players = () => {
                           <a
                             href={players.youtube}
                             target='_blank'
-                            className='text-gray-700 hover:text-pink-600'
+                            className='text-gray-700 hover:text-[#715bd4] cursor-pointer2'
                           >
                             <svg
                               className='w-4 h-4'

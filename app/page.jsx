@@ -10,7 +10,7 @@ const App = () => {
 
   return (
     <div className='min-h-screen w-full flex justify-center items-center'>
-      <div class='spinner'></div>
+      <div className='spinner'></div>
     </div>
   );
 };

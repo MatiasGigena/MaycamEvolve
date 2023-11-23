@@ -9,7 +9,11 @@ const MobileNavLink = ({ title, href, toggleMenu }) => {
       variants={mobileLinkVars}
       className=' text-3xl lg:text-5xl font-extralight uppercase text-white'
     >
-      <Link onClick={toggleMenu} href={href}>
+      <Link
+        className='cursor-pointer2'
+        onClick={toggleMenu}
+        href={href}
+      >
         {title}
       </Link>
     </motion.div>

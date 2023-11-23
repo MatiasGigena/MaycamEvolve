@@ -18,7 +18,7 @@ const HomePage = () => {
               src='/images/noticias2.webp'
               alt='logo'
               fill
-              className='object-cover md:rounded-xl shadow-xl hover:opacity-80 h-full transition duration-300'
+              className='object-cover md:rounded-xl shadow-xl cursor-pointer2 hover:opacity-80 h-full transition duration-300'
             />
           </a>
         </div>
@@ -30,10 +30,10 @@ const HomePage = () => {
               allowFullScreen
               height='378'
               width='620'
-              className='absolute inset-0 w-full h-full md:rounded-md md:rounded-b-none shadow-xl hover:opacity-80'
+              className='absolute inset-0 w-full h-full md:rounded-md lg:rounded-b-none shadow-xl cursor-pointer2 hover:opacity-90'
             ></iframe>
           </div>
-          <div className='relative overflow-hidden w-full pt-[50%]'>
+          <div className='relative overflow-hidden w-full pt-[55%]'>
             <iframe
               width='560'
               height='315'
@@ -41,7 +41,7 @@ const HomePage = () => {
               title='YouTube video player'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               allowFullScreen
-              className='absolute inset-0 w-full h-full md:rounded-md md:rounded-b-none shadow-xl hover:opacity-80'
+              className='absolute inset-0 w-full h-full md:rounded-md lg:rounded-t-none shadow-xl cursor-pointer2 hover:opacity-90'
             ></iframe>
           </div>
         </div>
@@ -71,7 +71,7 @@ const HomePage = () => {
             </span>
           </p>
         </div>
-        <div className='lg:overflow-hidden w-fit borderB rounded-[20px] lg:w-auto'>
+        <div className='lg:overflow-hidden cursor-pointer2 w-fit borderB rounded-[20px] lg:w-auto'>
           {width && width >= 768 ? (
             <TwitterTimelineEmbed
               noBorders
