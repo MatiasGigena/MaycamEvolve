@@ -13,7 +13,7 @@ const TeamNav = () => {
         'inline-flex items-center gap-2 lg:rounded-md border-y-2 lg:border-2 border-[#715bd4] px-4 py-2 text-sm shadow-md ';
     } else {
       classes +=
-        'inline-flex items-center gap-2 rounded-md px-4 text-sm   ';
+        'inline-flex items-center gap-2 rounded-md px-4 text-sm cursor-pointer2  ';
     }
     return classes;
   };

@@ -33,11 +33,11 @@ const HomePage = () => {
               className='absolute inset-0 w-full h-full md:rounded-md lg:rounded-b-none shadow-xl cursor-pointer2 hover:opacity-90'
             ></iframe>
           </div>
-          <div className='relative overflow-hidden w-full pt-[55%]'>
+          <div className='relative overflow-hidden w-full pt-[51%]'>
             <iframe
               width='560'
               height='315'
-              src='https://www.youtube.com/embed/do7IydgcmCw?si=89ixm-MlKf1Y0Fb_'
+              src='https://www.youtube.com/embed/mH_hPFBNJIQ?si=oOpjkqlKhXHA5Sed'
               title='YouTube video player'
               allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
               allowFullScreen
