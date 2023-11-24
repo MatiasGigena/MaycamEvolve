@@ -58,6 +58,31 @@ body {
   animation: spin 0.5s infinite linear;
 }
 
+.text-wrapper {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.text-wrapper div {
+  display: flex;
+  justify-content: flex-end;
+  -webkit-text-stroke-width: 0.1px;
+  letter-spacing: 1px;
+  white-space: nowrap;
+  width: 75vw;
+  animation: move-rtl 16s linear infinite;
+}
+
+@keyframes move-rtl {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 .spinner::after {
   width: 85%;
   height: 85%;
@@ -176,6 +201,14 @@ body {
   }
   .borderBNav {
     box-shadow: none !important;
+  }
+  @keyframes move-rtl {
+    0% {
+      transform: translateX(200%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 }
 
