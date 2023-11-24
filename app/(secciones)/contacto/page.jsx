@@ -11,6 +11,13 @@ import Companies3 from '@/app/components/sponsors3';
 import { HiDownload } from 'react-icons/hi';
 import Departamentos from '@/app/components/departamentos';
 const Contacto = () => {
+  const handleDownloadES = () => {
+    const pdfUrl = '/files/tinified.zip';
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'tinified.zip';
+    link.click();
+  };
   return (
     <main className='h-[100vh] lg:h-[90vh] fondo3D w-full  flex items-start overflow-hidden px-10 '>
       <section className=' h-full lg:h-[70vh] w-full flex flex-col mt-10 xl:mt-16 gap-8 lg:gap-10 xl:gap-12'>
@@ -115,7 +122,10 @@ const Contacto = () => {
             <span className='text-[#715bd4]'>Assets</span> y{' '}
             <span className='text-[#715bd4]'>Gráficos</span>
           </h5>
-          <button className='border cursor-pointer2 hvr-fade font-medium border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'>
+          <button
+            onClick={handleDownloadES}
+            className='border cursor-pointer2 hvr-fade font-medium border-[#715bd4] rounded-2xl flex items-center text-base xl:text-2xl gap-3 p-5 xl:p-8'
+          >
             Download{' '}
             <HiDownload style={{ fontSize: '1.3rem' }} />
           </button>
