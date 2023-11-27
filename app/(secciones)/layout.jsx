@@ -2,6 +2,7 @@ import Navbar from '../components/nav';
 import Footer from '../components/footer';
 import { AiOutlineWarning } from 'react-icons/ai';
 import { TfiWorld } from 'react-icons/tfi';
+import Modal from '../components/modal';
 
 const Layout = ({ children }) => {
   return (
@@ -28,6 +29,7 @@ const Layout = ({ children }) => {
       </section>
       <section className='lg:pt-10 lg:pb-16'>
         <Navbar />
+        <Modal />
         {children}
         <Footer />
       </section>

@@ -26,7 +26,7 @@ const HomePage = () => {
           </a>
         </div>
         <div className='flex-col md:gap-2 lg:gap-0 flex justify-center items-center w-full '>
-          <div className='relative overflow-hidden pt-[75%] w-full lg:pt-[62%]'>
+          <div className='relative overflow-hidden pt-[75%] min-h-[250px] w-full lg:pt-[62%]'>
             <iframe
               title='twitch'
               src='https://player.twitch.tv/?channel=maycamevolve&parent=maycam-evolve.vercel.app'

@@ -64,8 +64,8 @@ const Sponsors = () => {
   ];
 
   return (
-    <main className='min-h-screen w-full flex flex-col gap-2 lg:gap-4 py-16 items-start justify-start'>
-      <div className='flex flex-col  animate__animated animate__lightSpeedInLeft'>
+    <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-4 py-16 items-start justify-start'>
+      <div className='flex flex-col items-center justify-center lg:items-start w-full animate__animated animate__lightSpeedInLeft'>
         <h1 className='text-white font-extralight px-10 text-4xl text-center lg:text-left  lg:text-5xl'>
           Nuestros{' '}
           <span className='text-[#715bd4] font-light'>
@@ -82,6 +82,9 @@ const Sponsors = () => {
             <figure className=' w-[150px] lg:min-w-[400px] flex items-center justify-center'>
               <div className='relative flex items-center justify-center h-full w-56'>
                 <Image
+                  sizes={
+                    '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
+                  }
                   src={sponsor.logo}
                   fill
                   alt='Album'

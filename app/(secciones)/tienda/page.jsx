@@ -1,5 +1,7 @@
+'use client';
 import Image from 'next/image';
 import 'animate.css';
+import Modal from '@/app/components/modal';
 
 const Tienda = () => {
   return (
