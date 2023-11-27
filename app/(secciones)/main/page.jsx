@@ -24,6 +24,16 @@ const MainPage = () => {
       }
     }
   }, [router]);
+  useEffect(() => {
+    if (window.location.hash !== '#home') {
+      setIsLoading(true);
+      router.push('/main');
+      window.scrollTo(0, 0);
+    } else {
+      setIsLoading(false);
+      window.scrollTo(0, 0);
+    }
+  }, [router]);
 
   return (
     <>

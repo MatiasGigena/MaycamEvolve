@@ -43,7 +43,6 @@ const Contacto = () => {
               <BiLogoTiktok
                 style={{
                   fontSize: '1.5rem',
-                  color: '#715bd4',
                 }}
               />
             </a>
@@ -59,7 +58,7 @@ const Contacto = () => {
               target='_blank'
               className='cursor-pointer2'
             >
-              <YouTubeIcon style={{ color: '#715bd4' }} />
+              <YouTubeIcon />
             </a>
             <a
               href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
@@ -76,7 +75,6 @@ const Contacto = () => {
               <AiFillBehanceCircle
                 style={{
                   fontSize: '1.5rem',
-                  color: '#715bd4',
                 }}
               />
             </a>
@@ -95,7 +93,6 @@ const Contacto = () => {
               <BsDiscord
                 style={{
                   fontSize: '1.5rem',
-                  color: '#715bd4',
                 }}
               />
             </a>

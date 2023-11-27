@@ -64,62 +64,16 @@ const Sponsors = () => {
   ];
 
   return (
-    <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-10 py-16 items-start justify-start'>
-      <div className='flex flex-col gap-8 lg:gap-10 animate__animated animate__lightSpeedInLeft'>
+    <main className='min-h-screen w-full flex flex-col gap-2 lg:gap-4 py-16 items-start justify-start'>
+      <div className='flex flex-col  animate__animated animate__lightSpeedInLeft'>
         <h1 className='text-white font-extralight px-10 text-4xl text-center lg:text-left  lg:text-5xl'>
           Nuestros{' '}
           <span className='text-[#715bd4] font-light'>
             Sponsors
           </span>
         </h1>
-        <p className='leading-[40px] lg:leading-[60px] px-10  font-light text-center lg:text-left text-base  lg:text-2xl w-full xlxl:w-4/5 text-white'>
-          Hemos tenido el{' '}
-          <span className='text-[#715bd4] font-medium'>
-            privilegio
-          </span>{' '}
-          de establecer colaboraciones con{' '}
-          <span className='text-[#715bd4] font-medium'>
-            destacados referentes
-          </span>{' '}
-          en sus respectivos{' '}
-          <span className='text-[#715bd4] font-medium'>
-            ámbitos
-          </span>
-          . Compartimos valores fundamentales, tales como el{' '}
-          <span className='text-[#715bd4] font-medium'>
-            rendimiento
-          </span>
-          , la
-          <span className='text-[#715bd4] font-medium'>
-            {' '}
-            innovación
-          </span>
-          , la{' '}
-          <span className='text-[#715bd4] font-medium'>
-            autenticidad
-          </span>{' '}
-          y la{' '}
-          <span className='text-[#715bd4] font-medium'>
-            pasión
-          </span>
-          . Estamos entusiasmados de contar con{' '}
-          <span className='text-[#715bd4] font-medium'>
-            patrocinadores
-          </span>{' '}
-          a largo plazo que nos brindarán el respaldo
-          necesario para alcanzar nuestras{' '}
-          <span className='text-[#715bd4] font-medium'>
-            metas
-          </span>{' '}
-          y{' '}
-          <span className='text-[#715bd4] font-medium'>
-            expandirnos
-          </span>{' '}
-          más allá de los límites del mundo de los deportes
-          electrónicos.
-        </p>
       </div>
-      <section className=' grid lg:place-items-start xlxl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 grid-cols-1 place-items-center  px-5 xl:p-10 md:gap-x-5 gap-10 md:gap-y-10 lg:gap-10 overflow-hidden w-full'>
+      <section className=' grid animate__animated animate__fadeInUpBig lg:place-items-start xlxl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 grid-cols-1 place-items-center  px-5 xl:p-10 md:gap-x-5 gap-10 md:gap-y-10 lg:gap-10 overflow-hidden w-full'>
         {sponsors.map((sponsor, index) => (
           <article
             key={index}
