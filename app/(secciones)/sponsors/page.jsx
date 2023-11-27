@@ -6,27 +6,6 @@ import 'animate.css';
 const Sponsors = () => {
   const sponsors = [
     {
-      name: 'GGPOKER',
-      logo: '/logoswhite/GGPOKER White 2.png',
-      url: 'https://ggpoker.com/',
-      description:
-        'GGPoker, fundado en 2017, es una plataforma de póker diseñada por un equipo de apasionados jugadores. Nuestra misión es hacer que el póker sea divertido y emocionante, ofreciendo formatos de juego y características únicas que no se encuentran en otros lugares. Nos dirigimos a aquellos con estilos de vida ocupados, brindando sesiones de juego llenas de acción.',
-    },
-    {
-      name: 'JBL QUANTUM V',
-      logo: '/logoswhite/JBL QUANTUM V WHITE.png',
-      url: 'https://www.jbl.com/',
-      description:
-        'JBL siempre ha creído que el sonido debería ser un escenario abierto, un lugar de libre expresión donde las voces sean escuchadas, sin restricciones ni limitaciones. Es por eso que destacamos y celebramos la expresión auténtica y sin filtros de artistas, creadores y artistas valientes. JBL está aquí para ayudarte a expresar tu verdadero yo, para que puedas experimentar la alegría y emoción de ser tú mismo.',
-    },
-    {
-      name: 'MAYCAMGAMES',
-      logo: '/logoswhite/MAYCAMGAMES White.png',
-      url: 'https://maycamgames.com/',
-      description:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quos tenetur qui nostrum aliquid cumesse dolore. Soluta earum nam recusandae inciduntiusto, sequi, eaque deserunt impedit quis nobis excepturi.',
-    },
-    {
       name: 'PREX',
       logo: '/logoswhite/PREX White.png',
       url: 'https://prex.com/',
@@ -34,11 +13,11 @@ const Sponsors = () => {
         'Brindamos acceso a productos financieros seguros, innovadores, transparentes y de calidad en LATAM a través de una cuenta digital. Si tu plata rinde, ¡cuenta! Tenés una cuenta, una App, una tarjeta prepaga internacional y libertad financiera en tus manos.',
     },
     {
-      name: 'SEAGATE',
-      logo: '/logoswhite/SEAGATE WHITE H.png',
-      url: 'https://www.seagate.com/la/es/',
+      name: 'MAYCAMGAMES',
+      logo: '/logoswhite/MAYCAMGAMES White.png',
+      url: 'https://maycamgames.com/',
       description:
-        'En Seagate, lideramos en almacenamiento de datos, respondiendo al crecimiento explosivo de la nube, inteligencia artificial y aprendizaje automático. Nuestra innovación utiliza ingeniería nanométrica y ciencia de materiales, priorizando la circularidad y sostenibilidad. Ofrecemos líderes densidades de área, impulsando una gama completa de dispositivos y servicios para todos los ecosistemas basados en datos. Inspirados en nuestros valores, buscamos constantemente la innovación para garantizar el almacenamiento seguro y desbloquear el valor de tus datos. ',
+        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quos tenetur qui nostrum aliquid cumesse dolore. Soluta earum nam recusandae inciduntiusto, sequi, eaque deserunt impedit quis nobis excepturi.',
     },
     {
       name: 'GATORADE',
@@ -60,6 +39,27 @@ const Sponsors = () => {
       url: 'https://sanignacio.com.ar/index.html',
       description:
         'San Ignacio, fundada en 1939 en Rosario, Argentina, es conocida por su excelencia en la producción de dulce de leche y queso. Procesan más de 27 millones de litros de leche anualmente para producir dulce de leche, queso y productos frescos que son reconocidos por su calidad, tradición y han ganado premios, como el mejor queso azul del país en 2006. San Ignacio es elegida por otras marcas por su trayectoria, tradición y calidad para ubicarnos en el corazón de sus productos.',
+    },
+    {
+      name: 'SEAGATE',
+      logo: '/logoswhite/SEAGATE WHITE H.png',
+      url: 'https://www.seagate.com/la/es/',
+      description:
+        'En Seagate, lideramos en almacenamiento de datos, respondiendo al crecimiento explosivo de la nube, inteligencia artificial y aprendizaje automático. Nuestra innovación utiliza ingeniería nanométrica y ciencia de materiales, priorizando la circularidad y sostenibilidad. Ofrecemos líderes densidades de área, impulsando una gama completa de dispositivos y servicios para todos los ecosistemas basados en datos. Inspirados en nuestros valores, buscamos constantemente la innovación para garantizar el almacenamiento seguro y desbloquear el valor de tus datos. ',
+    },
+    {
+      name: 'GGPOKER',
+      logo: '/logoswhite/GGPOKER White 2.png',
+      url: 'https://ggpoker.com/',
+      description:
+        'GGPoker, fundado en 2017, es una plataforma de póker diseñada por un equipo de apasionados jugadores. Nuestra misión es hacer que el póker sea divertido y emocionante, ofreciendo formatos de juego y características únicas que no se encuentran en otros lugares. Nos dirigimos a aquellos con estilos de vida ocupados, brindando sesiones de juego llenas de acción.',
+    },
+    {
+      name: 'JBL QUANTUM V',
+      logo: '/logoswhite/JBL QUANTUM V WHITE.png',
+      url: 'https://www.jbl.com/',
+      description:
+        'JBL siempre ha creído que el sonido debería ser un escenario abierto, un lugar de libre expresión donde las voces sean escuchadas, sin restricciones ni limitaciones. Es por eso que destacamos y celebramos la expresión auténtica y sin filtros de artistas, creadores y artistas valientes. JBL está aquí para ayudarte a expresar tu verdadero yo, para que puedas experimentar la alegría y emoción de ser tú mismo.',
     },
   ];
 
