@@ -22,7 +22,7 @@ const TeamNav = () => {
       <a href='/equipos/r6' className={activeLinks('r6')}>
         <Image
           style={{ height: 'auto', width: 'auto' }}
-          src='/images/r91.png'
+          src='/images/r6B.png'
           width={50}
           height={20}
           alt='logosequipos'
@@ -31,7 +31,7 @@ const TeamNav = () => {
       <a href='/equipos/cs2' className={activeLinks('cs2')}>
         <Image
           style={{ height: 'auto', width: '70px' }}
-          src='/images/cslogo2.png'
+          src='/images/cslogo2B.png'
           width={55}
           height={20}
           alt='logosequipos'
@@ -43,7 +43,7 @@ const TeamNav = () => {
       >
         <Image
           style={{ height: 'auto', width: 'auto' }}
-          src='/images/dotalofo.png'
+          src='/images/dotalogoB.png'
           width={55}
           height={20}
           alt='logosequipos'
@@ -55,7 +55,7 @@ const TeamNav = () => {
       >
         <Image
           style={{ height: 'auto', width: '70px' }}
-          src='/images/fifa24.png'
+          src='/images/eafc24B.png'
           width={60}
           height={20}
           alt='logosequipos'
@@ -67,7 +67,7 @@ const TeamNav = () => {
       >
         <Image
           style={{ height: 'auto', width: '70px' }}
-          src='/images/simrafinal.png'
+          src='/images/simracingB.png'
           width={60}
           height={20}
           alt='logosequipos'

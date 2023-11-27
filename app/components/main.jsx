@@ -52,8 +52,8 @@ const HomePage = () => {
       <div className=' flex items-center justify-center mt-8 lg:mt-0 w-full px-6 md:px-0'>
         <Companies2 />
       </div>
-      <div className='bg-transparent px-4 w-full  md:mt-16 gap-6 flex-col flex lg:flex-row items-center justify-center'>
-        <div className=''>
+      <div className='bg-transparent px-4 w-full md:mt-16 lg:-6 flex-col flex lg:flex-row items-center justify-center'>
+        <>
           <p className='leading-[130px] sm:leading-[140px] text-center lg:text-left  text-4xl sm:text-5xl  xxl:text-7xl  max-w-5xl text-[#715bd4] xxl:leading-[170px]'>
             Mantente
             <span className='text-[#fff]'>
@@ -73,54 +73,14 @@ const HomePage = () => {
               Game
             </span>
           </p>
-        </div>
-        <div className='lg:overflow-hidden cursor-pointer2 w-fit borderB rounded-[20px] lg:w-auto'>
-          {width && width >= 768 ? (
-            <TwitterTimelineEmbed
-              noBorders
-              options={{
-                height: 800,
-                width: 790,
-              }}
-              screenName='MaycamEvolve'
-              theme='dark'
-            />
-          ) : (
-            <div className='flex'>
-              <a
-                href='https://twitter.com/maycamevolve/'
-                target='_blank'
-                className='btn border-none text-xs text-white fondoNav2'
-              >
-                {' '}
-                Twitter{' '}
-              </a>
-              <a
-                href='https://www.instagram.com/maycamevolve/'
-                target='_blank'
-                className='btn border-none text-xs text-white fondoNav2'
-              >
-                {' '}
-                Instagram{' '}
-              </a>
-              <a
-                href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
-                target='_blank'
-                className='btn border-none text-xs text-white fondoNav2'
-              >
-                {' '}
-                Linkedin{' '}
-              </a>
-              <a
-                href='https://www.youtube.com/c/MaycamEvolve/videos'
-                target='_blank'
-                className='btn border-none text-xs text-white fondoNav2'
-              >
-                {' '}
-                Youtube{' '}
-              </a>
-            </div>
-          )}
+        </>
+        <div className='lg:overflow-hidden cursor-pointer2 w-fit rounded-[20px] lg:w-auto'>
+          <Image
+            src={'/images/celuu.png'}
+            alt='logo'
+            width={500}
+            height={200}
+          />
         </div>
       </div>
       <Streamers />
