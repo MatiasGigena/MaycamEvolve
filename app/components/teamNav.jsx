@@ -18,7 +18,7 @@ const TeamNav = () => {
     return classes;
   };
   return (
-    <div className='flex flex-col w-[15%] sm:w-[10%] lg:w-auto top-72 lg:top-0 borderB z-40 py-6 items-center fixed rounded-2xl lg:relative lg:flex-row h-auto lg:h-28 bg-black fondoNav2 lg:px-4 gap-10'>
+    <div className='flex flex-col w-[15%] sm:w-[10%] lg:w-auto top-72 lg:top-0 borderB  py-6 items-center fixed rounded-2xl lg:relative lg:flex-row h-auto lg:h-28 bg-black fondoNav2 lg:px-4 gap-10'>
       <a href='/equipos/r6' className={activeLinks('r6')}>
         <Image
           style={{ height: 'auto', width: 'auto' }}
@@ -30,7 +30,7 @@ const TeamNav = () => {
       </a>
       <a href='/equipos/cs2' className={activeLinks('cs2')}>
         <Image
-          style={{ height: 'auto', width: '70px' }}
+          style={{ height: 'auto', width: '85px' }}
           src='/images/cslogo2B.png'
           width={55}
           height={20}
@@ -66,7 +66,7 @@ const TeamNav = () => {
         className={activeLinks('simracing')}
       >
         <Image
-          style={{ height: 'auto', width: '70px' }}
+          style={{ height: 'auto', width: '80px' }}
           src='/images/simracingB.png'
           width={60}
           height={20}

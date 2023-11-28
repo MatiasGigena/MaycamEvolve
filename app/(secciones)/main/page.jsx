@@ -9,29 +9,26 @@ const MainPage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    if (window.location.hash !== '#streamers') {
-      setIsLoading(true);
-      router.push('/main');
-      window.scrollTo(0, 0);
-    } else {
-      setIsLoading(false);
-      const streamersElement =
-        document.getElementById('streamers');
-      if (streamersElement) {
-        streamersElement.scrollIntoView({
-          behavior: 'smooth',
-        });
-      }
-    }
-  }, [router]);
-  useEffect(() => {
-    if (window.location.hash !== '#home') {
-      setIsLoading(true);
-      router.push('/main');
-      window.scrollTo(0, 0);
-    } else {
-      setIsLoading(false);
-      window.scrollTo(0, 0);
+    switch (window.location.hash) {
+      case '#streamers':
+        setIsLoading(false);
+        const streamersElement =
+          document.getElementById('streamers');
+        if (streamersElement) {
+          streamersElement.scrollIntoView({
+            behavior: 'smooth',
+          });
+        }
+        break;
+      case '#home':
+        setIsLoading(false);
+        window.scrollTo(0, 0);
+        break;
+      default:
+        setIsLoading(true);
+        router.push('/main');
+        window.scrollTo(0, 0);
+        break;
     }
   }, [router]);
 
