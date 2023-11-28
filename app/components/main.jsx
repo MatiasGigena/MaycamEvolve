@@ -54,7 +54,7 @@ const HomePage = () => {
       </div>
       <div className='bg-transparent px-4 w-full md:mt-16 lg:-6 flex-col flex lg:flex-row items-center justify-center'>
         <>
-          <p className='leading-[130px] sm:leading-[140px] text-center lg:text-left  text-4xl sm:text-5xl  xxl:text-7xl  max-w-5xl text-[#715bd4] xxl:leading-[170px]'>
+          <p className='leading-[110px] sm:leading-[120px] text-center lg:text-left  text-4xl sm:text-5xl  xxl:text-7xl  max-w-5xl text-[#715bd4] xxl:leading-[150px]'>
             Mantente
             <span className='text-[#fff]'>
               {' '}

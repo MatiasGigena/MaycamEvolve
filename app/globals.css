@@ -248,6 +248,7 @@ body {
 .fondo3D {
   background-image: url('../public/images/fix.png');
   background-size: contain;
+  background-position: bottom;
 }
 .fondo4D {
   background-image: url('../public/images/background_maycamevolve.png');
