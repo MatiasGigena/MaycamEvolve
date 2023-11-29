@@ -74,14 +74,18 @@ const HomePage = () => {
             </span>
           </p>
         </>
-        <div className='lg:overflow-hidden cursor-pointer2 w-fit rounded-[20px] lg:w-auto'>
+        <a
+          href='https://twitter.com/maycamevolve'
+          target='_blank'
+          className='lg:overflow-hidden cursor-pointer2 w-fit rounded-[20px] lg:w-auto'
+        >
           <Image
             src={'/images/celuu.png'}
             alt='logo'
             width={500}
             height={200}
           />
-        </div>
+        </a>
       </div>
       <Streamers />
     </section>
