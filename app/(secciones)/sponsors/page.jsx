@@ -17,7 +17,7 @@ const Sponsors = () => {
       logo: '/logoswhite/MAYCAMGAMES White.png',
       url: 'https://maycamgames.com/',
       description:
-        'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quos tenetur qui nostrum aliquid cumesse dolore. Soluta earum nam recusandae inciduntiusto, sequi, eaque deserunt impedit quis nobis excepturi.',
+        'Seguinos en @maycamgames, Descubrí en MAYCAM todo lo que el gamer necesita. Somos especialistas en la venta de hardware y componentes de PC con el mejor precio.',
     },
     {
       name: 'GATORADE',
@@ -55,7 +55,7 @@ const Sponsors = () => {
         'GGPoker, fundado en 2017, es una plataforma de póker diseñada por un equipo de apasionados jugadores. Nuestra misión es hacer que el póker sea divertido y emocionante, ofreciendo formatos de juego y características únicas que no se encuentran en otros lugares. Nos dirigimos a aquellos con estilos de vida ocupados, brindando sesiones de juego llenas de acción.',
     },
     {
-      name: 'JBL QUANTUM V',
+      name: 'JBL QUANTUM',
       logo: '/logoswhite/JBL QUANTUM V WHITE.png',
       url: 'https://www.jbl.com/',
       description:
@@ -64,7 +64,7 @@ const Sponsors = () => {
   ];
 
   return (
-    <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-4 py-16 items-start justify-start'>
+    <main className='min-h-screen w-full flex flex-col gap-8 lg:gap-4 py-8 lg:py-16 items-start justify-start'>
       <div className='flex flex-col items-center justify-center lg:items-start w-full animate__animated animate__lightSpeedInLeft'>
         <h1 className='text-white font-extralight px-10 text-4xl text-center lg:text-left  lg:text-5xl'>
           Nuestros{' '}
@@ -77,7 +77,7 @@ const Sponsors = () => {
         {sponsors.map((sponsor, index) => (
           <article
             key={index}
-            className='card card-side w-[22.5rem] md:w-[22rem] p-4 lg:p-0 lg:w-full fondoNav2 h-full lg:h-[29rem]  rounded-3xl shadow-xl'
+            className='card card-side w-[22.5rem] gap-7 lg:gap-0 md:w-[22rem] p-4 lg:p-0 lg:w-full fondoNav2 h-full lg:h-[29rem]  rounded-3xl shadow-xl'
           >
             <figure className=' w-[150px] lg:min-w-[400px] flex items-center justify-center'>
               <div className='relative flex items-center justify-center h-full w-56'>
@@ -100,12 +100,13 @@ const Sponsors = () => {
               <p className='text-white hidden lg:flex  lg:min-h-[216px]   xl:w-full'>
                 {sponsor.description}
               </p>
-              <div className='card-actions mt-5 justify-end'>
+              <div className='card-actions mt-5 lg:justify-end'>
                 <a
                   href={sponsor.url}
                   target='_blank'
                   className='btn hvr-fade cursor-pointer2 hover:border-[#715bd4] bg-[#000] text-white border border-[#715bd4]'
                 >
+                  visita
                   <RxOpenInNewWindow
                     style={{ fontSize: '28px' }}
                   />

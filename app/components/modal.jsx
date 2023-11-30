@@ -2,6 +2,7 @@
 import { useEffect, useState } from 'react';
 import getCookie from '@/hooks/getCookies';
 import Image from 'next/image';
+import 'animate.css';
 
 const Modal = () => {
   const [showButton, setShowButton] = useState(false);
@@ -9,7 +10,7 @@ const Modal = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setShowButton(true);
-    }, 6000);
+    }, 20000);
 
     return () => clearTimeout(timer);
   }, []);
@@ -31,7 +32,7 @@ const Modal = () => {
   return (
     <>
       {showButton && (
-        <div className=' h-[150px] w-[150px] lg:h-[250px] rounded-lg lg:w-[250px] fondo bg-[#1a1e1c] borderB items-center flex justify-center transition duration-300 fixed z-[500] bottom-10 left-10'>
+        <div className=' h-[150px] animate__animated animate__fadeIn w-[150px] lg:h-[250px] rounded-lg lg:w-[250px] fondo bg-[#1a1e1c] borderB items-center flex justify-center transition duration-300 fixed z-[500] bottom-10 left-10'>
           <button
             className='relative bg-white h-[70%] w-[70%] cursor-pointer2'
             onClick={() =>
@@ -62,16 +63,14 @@ const Modal = () => {
           <h3 className='font-semibold text-lg text-center text-white'>
             Escanea el QR para participar en nuestro sorteo!
           </h3>
-          <div className='bg-white h-[200px] w-[200px] relative'>
-            <Image
-              sizes={
-                '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
-              }
-              src='/images/codeqr.png'
-              alt='codeqr'
-              fill
-            />
-          </div>
+
+          <Image
+            width={200}
+            height={500}
+            src='/images/codeqr.png'
+            alt='codeqr'
+            className='bg-white'
+          />
           <p className=' text-white'>
             Preiona ESC o clickea afuera para cerrar
           </p>

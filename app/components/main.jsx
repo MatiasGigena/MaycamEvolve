@@ -1,11 +1,8 @@
 import Image from 'next/image';
 import Companies2 from './sponsors2';
-import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import Streamers from './streamers';
-import useDimension from '@/hooks/useDimension';
 
 const HomePage = () => {
-  const { width } = useDimension();
   return (
     <section
       id='home'
@@ -54,7 +51,7 @@ const HomePage = () => {
       </div>
       <div className='bg-transparent px-4 w-full md:mt-16 lg:-6 flex-col flex lg:flex-row items-center justify-center'>
         <>
-          <p className='leading-[110px] sm:leading-[120px] text-center lg:text-left  text-4xl sm:text-5xl  xxl:text-7xl  max-w-5xl text-[#715bd4] xxl:leading-[150px]'>
+          <p className='leading-[110px] sm:leading-[120px] text-center lg:text-left  text-4xl sm:text-5xl  xxl:text-7xl  max-w-5xl text-[#715bd4] xxl:leading-[155px]'>
             Mantente
             <span className='text-[#fff]'>
               {' '}

@@ -28,67 +28,76 @@ const Redes = () => {
           className='flex gap-5 items-center '
         >
           <a
+            aria-label='Instagram'
             href='https://www.instagram.com/maycamevolve/'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <InstagramIcon />
           </a>
           <a
+            aria-label='Tiktok'
             href='https://www.tiktok.com/@maycamevolve'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <BiLogoTiktok style={{ fontSize: '1.5rem' }} />
           </a>
           <a
+            aria-label='Twitter'
             href='https://twitter.com/maycamevolve/'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <TwitterIcon />
           </a>
           <a
+            aria-label='Youtube'
             href='https://www.youtube.com/c/MaycamEvolve/videos'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <YouTubeIcon />
           </a>
           <a
+            aria-label='Linkedin'
             href='https://www.linkedin.com/company/maycamevolve/?originalSubdomain=ar'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <BsLinkedin />
           </a>
           <a
+            aria-label='Behance'
             href='https://www.behance.net/maycamevolve'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <AiFillBehanceCircle
               style={{ fontSize: '1.5rem' }}
             />
           </a>
           <a
+            aria-label='Facebook'
             href='https://www.facebook.com/MaycamEvolve/'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <Facebook />
           </a>
           <a
+            aria-label='Discord'
             href='https://discord.com/invite/r7qHmd6u6g'
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <BsDiscord style={{ fontSize: '1.5rem' }} />
           </a>
           <a
+            aria-label='Email'
             href=''
             target='_blank'
-            className='cursor-pointer2'
+            className='cursor-pointer2 hover:text-[#715bd4]'
           >
             <HiOutlineMail style={{ fontSize: '1.5rem' }} />
           </a>
