@@ -72,7 +72,7 @@ const Companies2 = () => {
             md:pb-8
             lg:py-12
             w-full
-            m-7
+            lg:m-7
             z-20
                    
         '

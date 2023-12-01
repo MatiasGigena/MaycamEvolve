@@ -50,8 +50,16 @@ const HomePage = () => {
               className='object-cover'
             />
           </SwiperSlide>
-          {/* <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src='/images/web.webp'
+              alt='banner'
+              fill
+              quality={100}
+              className='object-cover'
+            />
+          </SwiperSlide>
+          {/* <SwiperSlide>Slide 4</SwiperSlide>
             <SwiperSlide>Slide 5</SwiperSlide>
             <SwiperSlide>Slide 6</SwiperSlide>
             <SwiperSlide>Slide 7</SwiperSlide>
