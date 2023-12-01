@@ -126,7 +126,7 @@ const Navbar = () => {
             initial='initial'
             animate='animate'
             exit='exit'
-            className='fixed left-0 top-0 w-full h-screen origin-top p-10 z-[998] bg-[#000] fondo3D '
+            className='fixed left-0 top-0 w-full h-screen origin-top p-10 z-50 bg-[#000] fondo3D '
           >
             <div className='flex h-full flex-col justify-center'>
               <motion.div

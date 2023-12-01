@@ -1,3 +1,4 @@
+'use client';
 import Navbar from '../components/nav';
 import Footer from '../components/footer';
 import { AiOutlineWarning } from 'react-icons/ai';

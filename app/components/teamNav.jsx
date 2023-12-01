@@ -18,7 +18,7 @@ const TeamNav = () => {
     return classes;
   };
   return (
-    <div className='flex flex-col w-[15%] sm:w-[10%] lg:w-auto top-72 lg:top-0 borderB  py-6 items-center fixed rounded-2xl lg:relative lg:flex-row h-auto lg:h-28 bg-black fondoNav2 lg:px-4 gap-10'>
+    <div className='flex flex-col w-[15%] sm:w-[10%] lg:w-auto top-72 left-2 lg:top-0 borderB z-10 py-6 items-center fixed rounded-2xl lg:relative lg:flex-row h-auto lg:h-28 fondoNav2 lg:px-4 gap-10'>
       <a href='/equipos/r6' className={activeLinks('r6')}>
         <Image
           style={{ height: 'auto', width: 'auto' }}

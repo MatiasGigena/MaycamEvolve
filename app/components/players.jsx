@@ -237,11 +237,73 @@ const Players = () => {
       twitter: 'http://twitter.com/DaianaParise',
     },
   ];
+  const trofeos = [
+    {
+      juego: 'r6',
+      img: '/r6/trofeos.png',
+      trofeos: {
+        invitational1:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational2:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational3:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+      },
+    },
+    {
+      juego: 'dota',
+      img: '/dota/trofeos.png',
+      trofeos: {
+        invitational1:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational2:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational3:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+      },
+    },
+    {
+      juego: 'cs2',
+      img: '/cs2/trofeos.png',
+      trofeos: {
+        invitational1:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational2:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational3:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+      },
+    },
+    {
+      juego: 'eafc24',
+      img: '/eafc24/trofeos.png',
+      trofeos: {
+        invitational1:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational2:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational3:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+      },
+    },
+    {
+      juego: 'simracing',
+      img: '/simsracing/trofeos.png',
+      trofeos: {
+        invitational1:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational2:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+        invitational3:
+          'Campeonato Mundial de R6. Londres invitational winners. 2020.',
+      },
+    },
+  ];
   return (
-    <main className='relative mx-auto py-10 px-3 w-full max-w-8xl text-white'>
-      <section className='flex flex-col items-center'>
+    <main className='relative  mx-auto pb-10 lg:py-10 lg:pb-0 lg:px-3 w-full max-w-8xl text-white'>
+      <section className='flex flex-col gap-14 lg:gap-28 items-center'>
         <article className='mt-10 mx-auto w-full max-w-sm sm:max-w-2xl lg:max-w-7xl'>
-          <ul className='grid grid-cols-6 gap-10 lg:gap-24'>
+          <ul className='grid  grid-cols-6 gap-10 lg:gap-24'>
             {player.map(
               (players) =>
                 players.juego === subTeam && (
@@ -322,6 +384,59 @@ const Players = () => {
             )}
           </ul>
         </article>
+        <div className='h-screen lg:px-4  flex flex-col gap-5 lg:gap-12 w-full'>
+          <h3 className=' text-4xl px-4 lg:px-0 lg:text-7xl font-extralight'>
+            Sala de{' '}
+            <span className='text-[#715bd4]'>trofeos</span>
+          </h3>
+          <div className='grid grid-cols-1 place-items-center gap-y-10 lg:gap-y-0 lg:gap-x-1 xl:grid-cols-3 w-full'>
+            <p className='h-96 lg:h-[70vh] flex items-center justify-center fondoNav2 borderB2 w-[95%] lg:w-full'>
+              ACA IRIA ALGUNA IMAGEN.
+            </p>
+            <div className='h-[70vh]  w-full col-span-2 '>
+              {trofeos.map(
+                (trofeo, index) =>
+                  trofeo.juego === subTeam && (
+                    <div
+                      key={index}
+                      className='flex flex-col h-[50vh] py-4 gap-5  lg:gap-5 w-full scrollbar overflow-y-scroll'
+                    >
+                      <div className=' min-h-[3rem] lg:min-h-[7rem] tracking-widest lg:text-xl text-xs borderB2 px-3 lg:px-10  w-full fondoNav2 flex items-center'>
+                        <p>
+                          {trofeo.trofeos.invitational1}
+                        </p>
+                        <img
+                          src='/images/trofeo.png'
+                          className='h-20 ml-auto'
+                          alt=''
+                        />
+                      </div>
+                      <div className=' min-h-[3rem] lg:min-h-[7rem]  tracking-widest lg:text-xl text-xs borderB2 px-3 lg:px-10 w-full fondoNav2 flex items-center'>
+                        <p>
+                          {trofeo.trofeos.invitational2}
+                        </p>
+                        <img
+                          src='/images/trofeo.png'
+                          className='h-20 ml-auto'
+                          alt=''
+                        />
+                      </div>
+                      <div className=' min-h-[3rem] lg:min-h-[7rem] tracking-widest lg:text-xl text-xs borderB2 px-3 lg:px-10 min-w-full fondoNav2 flex items-center'>
+                        <p>
+                          {trofeo.trofeos.invitational3}
+                        </p>
+                        <img
+                          src='/images/trofeo.png'
+                          className='h-20 ml-auto'
+                          alt=''
+                        />
+                      </div>
+                    </div>
+                  )
+              )}
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );

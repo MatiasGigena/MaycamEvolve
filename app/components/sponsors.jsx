@@ -81,7 +81,11 @@ const Companies = () => {
       <div className={styles.mainContainer}>
         {carouselReady && (
           <Slider {...settings}>
-            <div className={styles.container}>
+            <a
+              href='https://www.gatorade.com/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -92,8 +96,12 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
-            <div className={styles.container}>
+            </a>
+            <a
+              href='https://ggpoker.com/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2 scale-[1.30]`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -104,8 +112,12 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
-            <div className={styles.container}>
+            </a>
+            <a
+              href='https://www.jbl.com/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -116,8 +128,12 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
-            <div className={styles.container}>
+            </a>
+            <a
+              href='https://maycamgames.com/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -128,9 +144,13 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
+            </a>
 
-            <div className={styles.container}>
+            <a
+              href='https://prex.com/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2 scale-150`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 60vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -141,8 +161,12 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
-            <div className={styles.container}>
+            </a>
+            <a
+              href='https://www.redragonzone.com/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2 scale-105`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -153,8 +177,12 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
-            <div className={styles.container}>
+            </a>
+            <a
+              href='https://sanignacio.com.ar/index.html'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2 scale-110`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -165,8 +193,12 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
-            <div className={styles.container}>
+            </a>
+            <a
+              href='https://www.seagate.com/la/es/'
+              target='_blank'
+              className={`${styles.container} cursor-pointer2 scale-105`}
+            >
               <Image
                 sizes={
                   '(max-width: 768px) 90vw, (max-width: 1200px) 70vw, (max-width: 2560px) 80vw, 100vw'
@@ -177,7 +209,7 @@ const Companies = () => {
                 fill
                 priority={true}
               />
-            </div>
+            </a>
           </Slider>
         )}
       </div>

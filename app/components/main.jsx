@@ -79,7 +79,7 @@ const HomePage = () => {
           <Image
             src={'/images/celuu.png'}
             alt='logo'
-            width={500}
+            width={600}
             height={200}
           />
         </a>

@@ -98,8 +98,7 @@ const Contacto = () => {
             </a>
             <a
               aria-label='Email'
-              href=''
-              target='_blank'
+              href='mailto:hola@maycamevolve.com'
               className='cursor-pointer2 hover:text-[#715bd4]'
             >
               <HiOutlineMail
