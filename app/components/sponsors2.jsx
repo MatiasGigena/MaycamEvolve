@@ -63,8 +63,6 @@ const Companies2 = () => {
             bg-[#000]
             fondoNav2
             borderB
-            rounded-lg
-            lg:rounded-[40px]
             gap-3
             sm:gap-8
             md:gap-9
@@ -73,9 +71,8 @@ const Companies2 = () => {
             md:pt-8
             md:pb-8
             lg:py-12
-w-full
-            m-7 
-
+            w-full
+            m-7
             z-20
                    
         '

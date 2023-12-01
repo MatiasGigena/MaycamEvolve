@@ -427,3 +427,14 @@ body {
 .scrollbar::-webkit-scrollbar-thumb {
   background: #715bd4;
 }
+
+.swiper-button-next {
+  color: white !important;
+}
+.swiper-button-prev {
+  color: white !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #715bd4 !important;
+}

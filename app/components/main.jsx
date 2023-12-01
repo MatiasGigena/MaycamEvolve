@@ -1,28 +1,65 @@
 import Image from 'next/image';
 import Companies2 from './sponsors2';
 import Streamers from './streamers';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import {
+  Autoplay,
+  Pagination,
+  Navigation,
+} from 'swiper/modules';
 
 const HomePage = () => {
   return (
     <section
       id='home'
-      className='min-h-screen w-full  flex flex-col items-center md:px-10 lg:px-12 xl:px-16 xxl:px-20 gap-2 pb-9 justify-start'
+      className='min-h-screen w-full  flex flex-col items-center  gap-2 pb-9 justify-start'
     >
-      <div className='grid grid-cols-1  lg:grid-cols-3 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-10 xl:pt-10 w-full'>
-        <div className='lg:col-span-2 h-[16rem] relative md:h-[26rem]  xl:h-[34rem] xxl:h-[40.3rem] w-full'>
-          <a
-            href='https://www.linkedin.com/company/maycamevolve/posts/?feedView=all'
-            target='_blank'
-          >
+      <div className='grid grid-cols-1 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-7 w-full'>
+        <Swiper
+          spaceBetween={30}
+          centeredSlides={true}
+          autoplay={{
+            delay: 4000,
+            disableOnInteraction: false,
+          }}
+          pagination={{
+            clickable: true,
+          }}
+          navigation={true}
+          modules={[Autoplay, Pagination, Navigation]}
+          className='mySwiper h-[200px] md:h-[500px] lg:h-[600px] xxl:h-[700px] w-full'
+        >
+          <SwiperSlide>
             <Image
-              src='/images/noticias2.webp'
-              alt='logo'
+              src='/images/Landing.jpg'
+              alt='banner'
               fill
-              className='object-cover md:rounded-xl shadow-xl cursor-pointer2 hover:opacity-80 h-full transition duration-300'
+              quality={100}
+              className='object-cover'
             />
-          </a>
-        </div>
-        <div className='flex-col md:gap-2 lg:gap-0 flex justify-center items-center w-full '>
+          </SwiperSlide>
+          <SwiperSlide>
+            <Image
+              src='/images/triptico showmatch.webp'
+              alt='banner'
+              fill
+              quality={100}
+              className='object-cover'
+            />
+          </SwiperSlide>
+          {/* <SwiperSlide>Slide 3</SwiperSlide>
+            <SwiperSlide>Slide 4</SwiperSlide>
+            <SwiperSlide>Slide 5</SwiperSlide>
+            <SwiperSlide>Slide 6</SwiperSlide>
+            <SwiperSlide>Slide 7</SwiperSlide>
+            <SwiperSlide>Slide 8</SwiperSlide>
+            <SwiperSlide>Slide 9</SwiperSlide> */}
+        </Swiper>
+
+        {/* <div className='flex-col md:gap-2 lg:gap-0 flex justify-center items-center w-full '>
           <div className='relative overflow-hidden pt-[75%] min-h-[250px] w-full lg:pt-[62%]'>
             <iframe
               title='twitch'
@@ -44,7 +81,7 @@ const HomePage = () => {
               className='absolute inset-0 w-full h-full md:rounded-md lg:rounded-t-none shadow-xl cursor-pointer2 hover:opacity-90'
             ></iframe>
           </div>
-        </div>
+        </div> */}
       </div>
       <div className=' flex items-center justify-center mt-8 lg:mt-0 w-full px-6 md:px-0'>
         <Companies2 />
