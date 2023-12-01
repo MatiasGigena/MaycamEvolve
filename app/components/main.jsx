@@ -34,7 +34,7 @@ const HomePage = () => {
         >
           <SwiperSlide>
             <Image
-              src='/images/Landing.jpg'
+              src='/images/Landing.webp'
               alt='banner'
               fill
               quality={100}
