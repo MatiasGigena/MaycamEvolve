@@ -101,7 +101,7 @@ const Streamers = () => {
       <div className='py-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20'>
         <div className='mb-10 flex flex-col ml-auto mr-auto bg-top bg-cover max-w-7xl md:mx-auto sm:text-center lg:max-w-3xl md:mb-16'>
           <p className='inline-block px-3 py-px mb-3 text-sm font-normal tracking-wider text-white uppercase rounded-full'>
-            Maycam Evolve
+            Maycam Evolve Teams
           </p>
           <p className='inline-block text-4xl px-3 py-px sm:text-5xl lg:text-7xl font-normal tracking-wider text-white uppercase rounded-full'>
             PANDAS{' '}

@@ -60,7 +60,11 @@ const Navbar = () => {
           </a>
         </li>
         <li className={activeLinks('home')}>
-          <a className='cursor-pointer2' href='/main#home'>
+          <a
+            lang='en'
+            className='cursor-pointer2'
+            href='/main#home'
+          >
             Home
           </a>
         </li>

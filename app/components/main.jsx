@@ -10,6 +10,7 @@ import {
   Pagination,
   Navigation,
 } from 'swiper/modules';
+import Entretenimiento from './entretenimiento';
 
 const HomePage = () => {
   return (
@@ -66,30 +67,6 @@ const HomePage = () => {
             <SwiperSlide>Slide 8</SwiperSlide>
             <SwiperSlide>Slide 9</SwiperSlide> */}
         </Swiper>
-
-        {/* <div className='flex-col md:gap-2 lg:gap-0 flex justify-center items-center w-full '>
-          <div className='relative overflow-hidden pt-[75%] min-h-[250px] w-full lg:pt-[62%]'>
-            <iframe
-              title='twitch'
-              src='https://player.twitch.tv/?channel=maycamevolve&parent=maycam-evolve.vercel.app'
-              allowFullScreen
-              height='378'
-              width='620'
-              className='absolute inset-0 w-full h-full md:rounded-md lg:rounded-b-none shadow-xl cursor-pointer2 hover:opacity-90'
-            ></iframe>
-          </div>
-          <div className='relative overflow-hidden w-full pt-[51%]'>
-            <iframe
-              width='560'
-              height='315'
-              src='https://www.youtube.com/embed/mH_hPFBNJIQ?si=oOpjkqlKhXHA5Sed'
-              title='YouTube video player'
-              allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
-              allowFullScreen
-              className='absolute inset-0 w-full h-full md:rounded-md lg:rounded-t-none shadow-xl cursor-pointer2 hover:opacity-90'
-            ></iframe>
-          </div>
-        </div> */}
       </div>
       <div className=' flex items-center justify-center mt-0 w-full  md:px-0'>
         <Companies2 />
@@ -129,6 +106,7 @@ const HomePage = () => {
           />
         </a>
       </div>
+      <Entretenimiento />
       <Streamers />
     </section>
   );
