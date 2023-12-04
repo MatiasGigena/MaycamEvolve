@@ -18,7 +18,7 @@ const HomePage = () => {
       id='home'
       className='min-h-screen w-full  flex flex-col items-center  gap-2 pb-9 justify-start'
     >
-      <div className='grid grid-cols-1 md:gap-4 place-items-center pt-0 lg:pt-7 w-full'>
+      <div className='grid grid-cols-1 md:gap-4 place-items-center pt-0  w-full'>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -34,32 +34,54 @@ const HomePage = () => {
           className='mySwiper h-[200px] md:h-[500px] lg:h-[600px] xxl:h-[700px] w-full'
         >
           <SwiperSlide>
-            <Image
-              src='/images/Landing.webp'
-              alt='banner'
-              fill
-              quality={100}
-              className='object-cover'
-            />
+            {/* CAMBIAR ESTE LINK AL QUE QUIERAS EN LAS IMAGENES PRINCIPALES */}
+            <a
+              href='https://www.linkedin.com/company/maycamevolve/posts/?feedView=all'
+              target='_blank'
+              className='cursor-pointer2'
+            >
+              <Image
+                src='/images/Landing.webp'
+                alt='banner'
+                fill
+                quality={100}
+                className='object-cover'
+              />
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src='/images/triptico showmatch.webp'
-              alt='banner'
-              fill
-              quality={100}
-              className='object-cover'
-            />
+            {/* CAMBIAR ESTE LINK AL QUE QUIERAS EN LAS IMAGENES PRINCIPALES */}
+            <a
+              href='https://www.linkedin.com/company/maycamevolve/posts/?feedView=all'
+              target='_blank'
+              className='cursor-pointer2'
+            >
+              <Image
+                src='/images/triptico showmatch.webp'
+                alt='banner'
+                fill
+                quality={100}
+                className='object-cover'
+              />
+            </a>
           </SwiperSlide>
           <SwiperSlide>
-            <Image
-              src='/images/web.webp'
-              alt='banner'
-              fill
-              quality={100}
-              className='object-cover'
-            />
+            {/* CAMBIAR ESTE LINK AL QUE QUIERAS EN LAS IMAGENES PRINCIPALES */}
+            <a
+              href='https://www.linkedin.com/company/maycamevolve/posts/?feedView=all'
+              target='_blank'
+              className='cursor-pointer2'
+            >
+              <Image
+                src='/images/web.webp'
+                alt='banner'
+                fill
+                quality={100}
+                className='object-cover'
+              />
+            </a>
           </SwiperSlide>
+          {/* ESTAS SON EXTRAS POR SI QUERES AGREGAR MAS */}
           {/* <SwiperSlide>Slide 4</SwiperSlide>
             <SwiperSlide>Slide 5</SwiperSlide>
             <SwiperSlide>Slide 6</SwiperSlide>
