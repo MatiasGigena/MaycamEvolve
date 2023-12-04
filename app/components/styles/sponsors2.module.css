@@ -66,6 +66,17 @@
     object-fit: contain;
   }
 }
+@media (max-width: 1024px) {
+  .mainContainer {
+    position: relative;
+    height: 20px;
+  }
+  .image {
+    width: 80px !important;
+    height: auto;
+    object-fit: contain;
+  }
+}
 
 @keyframes App-logo-spin {
   from {

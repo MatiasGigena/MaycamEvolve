@@ -17,7 +17,7 @@ const HomePage = () => {
       id='home'
       className='min-h-screen w-full  flex flex-col items-center  gap-2 pb-9 justify-start'
     >
-      <div className='grid grid-cols-1 md:gap-4 place-items-center pt-0 md:pt-6 lg:pt-7 w-full'>
+      <div className='grid grid-cols-1 md:gap-4 place-items-center pt-0 lg:pt-7 w-full'>
         <Swiper
           spaceBetween={30}
           centeredSlides={true}
@@ -91,10 +91,10 @@ const HomePage = () => {
           </div>
         </div> */}
       </div>
-      <div className=' flex items-center justify-center mt-8 lg:mt-0 w-full px-6 md:px-0'>
+      <div className=' flex items-center justify-center mt-0 w-full  md:px-0'>
         <Companies2 />
       </div>
-      <div className='bg-transparent px-4 w-full md:mt-16 lg:-6 flex-col flex lg:flex-row items-center justify-center'>
+      <div className='bg-transparent px-4 w-full mt-7 md:mt-16 lg:-6 flex-col flex lg:flex-row items-center justify-center'>
         <>
           <p className='leading-[110px] sm:leading-[120px] text-center lg:text-left  text-4xl sm:text-5xl  xxl:text-7xl  max-w-5xl text-[#715bd4] xxl:leading-[155px]'>
             Mantente

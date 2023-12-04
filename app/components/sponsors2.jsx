@@ -80,7 +80,10 @@ const Companies2 = () => {
     >
       <div className={styles.mainContainer}>
         {carouselReady && (
-          <Slider {...settings}>
+          <Slider
+            className='absolute bottom-9 lg:bottom-0 left-0'
+            {...settings}
+          >
             <a
               href='https://www.gatorade.com/'
               target='_blank'
