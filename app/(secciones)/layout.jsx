@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
             <TfiWorld />
           </div>
           <a className='cursor-pointer2' href='/contacto'>
-            Ayuda
+            Help
           </a>
         </nav>
       </section>
