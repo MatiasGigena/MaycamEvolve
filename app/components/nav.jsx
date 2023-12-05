@@ -82,7 +82,7 @@ const Navbar = () => {
             router.push('/equipos');
           }}
         >
-          Equipos
+          Teams
         </li>
         <li
           className={activeLinks('sponsors')}
