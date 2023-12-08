@@ -45,6 +45,7 @@ const HomePage = () => {
                 alt='banner'
                 fill
                 quality={100}
+                loading='eager'
                 className='object-cover'
               />
             </a>
@@ -60,6 +61,7 @@ const HomePage = () => {
                 src='/images/triptico showmatch.webp'
                 alt='banner'
                 fill
+                loading='eager'
                 quality={100}
                 className='object-cover'
               />
@@ -77,6 +79,7 @@ const HomePage = () => {
                 alt='banner'
                 fill
                 quality={100}
+                loading='eager'
                 className='object-cover'
               />
             </a>
