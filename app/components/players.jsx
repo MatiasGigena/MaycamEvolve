@@ -301,7 +301,7 @@ const Players = () => {
   ];
   return (
     <main className='relative  mx-auto pb-10 lg:py-10 lg:pb-0 lg:px-3 w-full max-w-8xl text-white'>
-      <section className='flex flex-col gap-14 lg:gap-28 items-center'>
+      <section className='flex py-10 flex-col gap-14 lg:gap-28 items-center'>
         <article className='mt-10 mx-auto w-full max-w-sm sm:max-w-2xl lg:max-w-7xl'>
           <ul className='grid  grid-cols-6 gap-10 lg:gap-24'>
             {player.map(
@@ -384,7 +384,7 @@ const Players = () => {
             )}
           </ul>
         </article>
-        <div className='h-screen lg:px-4  flex flex-col gap-7 lg:gap-12 w-full'>
+        {/* <div className='h-screen lg:px-4  flex flex-col gap-7 lg:gap-12 w-full'>
           <h3 className=' text-4xl px-4 lg:px-0 lg:text-7xl font-extralight'>
             Sala de{' '}
             <span className='text-[#715bd4]'>trofeos</span>
@@ -436,7 +436,7 @@ const Players = () => {
               )}
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     </main>
   );
