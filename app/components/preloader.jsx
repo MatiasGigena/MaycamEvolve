@@ -7,7 +7,7 @@ const Preloader = ({ setIsLoading }) => {
 
   useEffect(() => {
     let countDownDate = new Date(
-      'Jan 2, 2024 00:00:00'
+      'Jan 2, 2024 20:00:00'
     ).getTime();
 
     // Actualizar el conteo cada segundo

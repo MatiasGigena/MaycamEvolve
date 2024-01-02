@@ -30,7 +30,7 @@ const Layout = ({ children }) => {
       </section>
       <section className='lg:pt-10 lg:pb-16'>
         <Navbar />
-        <Modal />
+        {/* <Modal /> */}
         {children}
         <Footer />
       </section>
