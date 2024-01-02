@@ -73,6 +73,9 @@ const Preloader = ({ setIsLoading }) => {
         muted
         style={{ width: '700px', height: '700px' }}
         onEnded={handleVideoEnd}
+        className='animate-[fade-in_1s_ease-in] 
+        transition-opacity
+        duration-300'
       >
         <source
           src='images/ezgif.com-optimize.mp4'
