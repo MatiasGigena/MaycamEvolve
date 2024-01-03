@@ -22,7 +22,9 @@ body {
   cursor: url('../public/images/Link Select (Neon Purple).cur'),
     auto;
 }
-
+a:focus {
+  outline: none;
+}
 .custom-cursor {
   position: fixed;
   width: 10px;

@@ -7,16 +7,16 @@ import { FaTwitch } from 'react-icons/fa';
 
 const Streamers = () => {
   const streamers = [
-    {
-      nombre: 'ZEKI',
-      nacionalidad: 'ARGENTINA',
-      img: '/images/zeki.png',
-      instagram: 'https://www.instagram.com/xzeekii/',
-      tiktok: 'https://www.tiktok.com/@xzeekii',
-      twitch: 'https://www.twitch.tv/zeki',
-      youtube: 'https://www.youtube.com/@Zekix',
-      twitter: 'https://twitter.com/xzeekii',
-    },
+    // {
+    //   nombre: 'ZEKI',
+    //   nacionalidad: 'ARGENTINA',
+    //   img: '/images/zeki.png',
+    //   instagram: 'https://www.instagram.com/xzeekii/',
+    //   tiktok: 'https://www.tiktok.com/@xzeekii',
+    //   twitch: 'https://www.twitch.tv/zeki',
+    //   youtube: 'https://www.youtube.com/@Zekix',
+    //   twitter: 'https://twitter.com/xzeekii',
+    // },
     {
       nombre: 'MANUCRESPO',
       nacionalidad: 'ARGENTINA',
@@ -49,16 +49,16 @@ const Streamers = () => {
         'https://www.youtube.com/@randompl4yerok/videos',
       twitter: 'https://twitter.com/RandomPl4yerok',
     },
-    {
-      nombre: 'FOLKER',
-      nacionalidad: 'ARGENTINA',
-      img: '/images/folker.webp',
-      instagram: 'https://www.instagram.com/folkerz12/',
-      tiktok: 'https://www.tiktok.com/@folkerz12',
-      twitch: 'https://www.twitch.tv/folkerz12',
-      youtube: 'https://www.youtube.com/@folkerz12',
-      twitter: 'https://twitter.com/folkerz12',
-    },
+    // {
+    //   nombre: 'FOLKER',
+    //   nacionalidad: 'ARGENTINA',
+    //   img: '/images/folker.webp',
+    //   instagram: 'https://www.instagram.com/folkerz12/',
+    //   tiktok: 'https://www.tiktok.com/@folkerz12',
+    //   twitch: 'https://www.twitch.tv/folkerz12',
+    //   youtube: 'https://www.youtube.com/@folkerz12',
+    //   twitter: 'https://twitter.com/folkerz12',
+    // },
     {
       nombre: 'CONO',
       nacionalidad: 'ARGENTINA',
