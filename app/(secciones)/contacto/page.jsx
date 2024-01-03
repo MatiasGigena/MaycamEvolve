@@ -19,7 +19,7 @@ const Contacto = () => {
     link.click();
   };
   return (
-    <main className='h-[100vh] lg:h-[90vh] w-full  flex items-start overflow-hidden px-10 '>
+    <main className='min-h-screen lg:h-[90vh] w-full  flex items-start overflow-hidden px-10 '>
       <section className=' h-full lg:h-[70vh] w-full flex flex-col mt-10 xl:mt-16 gap-8 lg:gap-10 xl:gap-12'>
         <Departamentos />
         <article className='flex flex-col transition-opacity animate-[fade-in_2s_ease-in]  h-20 w-full xl:w-1/2 text-white'>
