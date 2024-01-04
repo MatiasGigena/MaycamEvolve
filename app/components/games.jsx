@@ -115,8 +115,8 @@ const Games = () => {
             alt=''
           />
           <img
-            className={`${styles.frontimage} mt-14 max-w-full`}
-            src='/simsracing/LucasGil.png'
+            className={`${styles.frontimage} mt-28 max-w-full`}
+            src='/efb/lautaro (2).png'
             alt='neon text'
           />
           <img
