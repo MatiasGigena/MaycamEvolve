@@ -1,5 +1,4 @@
 'use client';
-import Image from 'next/image';
 import { usePathname } from 'next/navigation';
 import { BiLogoInstagramAlt } from 'react-icons/bi';
 import { PiTwitchLogoFill } from 'react-icons/pi';
@@ -209,15 +208,6 @@ const Players = () => {
       ig: 'http://instagram.com/lucasgastonng/',
       twitter: 'http://twitter.com/lucasggil20',
     },
-    // {
-    //   juego: 'simracing',
-    //   nombre: 'Agustin Cajal',
-    //   gamerTag: 'Aspicito',
-    //   img: '/images/aspicito.png',
-    //   ig: 'https://www.instagram.com/aspicito/',
-    //   twitch: 'https://www.twitch.tv/aspicito',
-    //   twitter: 'https://twitter.com/Aspicito',
-    // },
     {
       juego: 'simracing',
       nombre: 'Gil Matias',
@@ -231,10 +221,19 @@ const Players = () => {
       juego: 'simracing',
       nombre: 'Gómez Parise Daiana Soledad ',
       gamerTag: 'Dai G. Parise',
-      img: '/images/siluetamujer.png',
+      img: '/simsracing/dai.png',
       ig: 'http://instagram.com/daiangop/',
       twitch: 'http://twitch.tv/daiangop',
       twitter: 'http://twitter.com/DaianaParise',
+    },
+    {
+      juego: 'efootball2024',
+      nombre: 'Lautaro Raris',
+      gamerTag: 'lautaroraris',
+      img: '/efb/lautaro (2).png',
+      ig: 'http://instagram.com/lautaro.pes/',
+      twitch: 'http://twitch.tv/lautaroPES',
+      twitter: 'http://twitter.com/Lautaro_PES',
     },
   ];
   const trofeos = [

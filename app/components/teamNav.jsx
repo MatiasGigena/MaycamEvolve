@@ -73,6 +73,18 @@ const TeamNav = () => {
           alt='logosequipos'
         />
       </a>
+      <a
+        href='/equipos/efootball2024'
+        className={activeLinks('efootball2024')}
+      >
+        <Image
+          style={{ height: 'auto', width: '80px' }}
+          src='/images/efblogo.png'
+          width={60}
+          height={20}
+          alt='logosequipos'
+        />
+      </a>
     </div>
   );
 };
