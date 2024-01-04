@@ -8,14 +8,14 @@ const Sponsors = () => {
     {
       name: 'PREX',
       logo: '/logoswhite/PREX White.png',
-      url: 'https://prex.com/',
+      url: 'https://prexcard.com.ar/',
       description:
         'Brindamos acceso a productos financieros seguros, innovadores, transparentes y de calidad en LATAM a través de una cuenta digital. Si tu plata rinde, ¡cuenta! Tenés una cuenta, una App, una tarjeta prepaga internacional y libertad financiera en tus manos.',
     },
     {
       name: 'MAYCAMGAMES',
       logo: '/logoswhite/MAYCAMGAMES White.png',
-      url: 'https://maycamgames.com/',
+      url: 'https://maycamgames.com.ar/',
       description:
         'Seguinos en @maycamgames, Descubrí en MAYCAM todo lo que el gamer necesita. Somos especialistas en la venta de hardware y componentes de PC con el mejor precio.',
     },
@@ -29,7 +29,7 @@ const Sponsors = () => {
     {
       name: 'REDRAGON',
       logo: '/logoswhite/REDRAGON White.png',
-      url: 'https://www.redragonzone.com/',
+      url: 'https://www.redragon.es/',
       description:
         'Eastern Times Technology Co., Ltd, fundada en 1996, es una de las principales fábricas de ratones y teclados en China. Con más de 1400 empleados, ofrece servicios de producción integrales. Como propietaria de Redragon, una marca destacada en periféricos de juegos, se compromete a brindar productos de alto rendimiento a nivel global. Con 20 años de experiencia, Redragon se destaca por su innovación en diseño e calidad. Su presencia de ventas abarca más de 30 países y aspira a proporcionar una vida de calidad y comodidad a sus usuarios.',
     },

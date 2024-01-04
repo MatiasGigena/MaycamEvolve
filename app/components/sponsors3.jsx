@@ -132,7 +132,7 @@ const Companies3 = () => {
               />
             </a>
             <a
-              href='https://maycamgames.com/'
+              href='https://maycamgames.com.ar/'
               target='_blank'
               className={`${styles.container} cursor-pointer2`}
             >
@@ -149,7 +149,7 @@ const Companies3 = () => {
             </a>
 
             <a
-              href='https://prex.com/'
+              href='https://prexcard.com.ar/'
               target='_blank'
               className={`${styles.container} cursor-pointer2 scale-150`}
             >
@@ -165,7 +165,7 @@ const Companies3 = () => {
               />
             </a>
             <a
-              href='https://www.redragonzone.com/'
+              href='https://www.redragon.es/'
               target='_blank'
               className={`${styles.container} cursor-pointer2 scale-105`}
             >
