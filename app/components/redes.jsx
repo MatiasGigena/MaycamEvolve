@@ -126,14 +126,15 @@ const Redes = () => {
           <li className='flex text-xs lg:text-base gap-16 lg:gap-20'>
             <span className='w-16 lg:w-24'>Marketing</span>
             <span>
-              meg<span className='text-[#715bd4]'>@</span>
+              marketing
+              <span className='text-[#715bd4]'>@</span>
               maycamevolve.com
             </span>
           </li>
           <li className='flex text-xs lg:text-base gap-16 lg:gap-20'>
             <span className='w-16 lg:w-24'>Deportivo</span>
             <span>
-              marketing
+              meg
               <span className='text-[#715bd4]'>@</span>
               maycamevolve.com
             </span>
