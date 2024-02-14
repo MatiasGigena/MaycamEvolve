@@ -5,4 +5,5 @@ module.exports = {
   images: {
     domains: ['cdn.devdojo.com'], // Add any other domains if needed
   },
+  output: 'export',
 };
