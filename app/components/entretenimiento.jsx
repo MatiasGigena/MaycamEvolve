@@ -20,7 +20,7 @@ const Entretenimiento = () => {
         <div className='relative overflow-hidden min-h-[250px]  md:min-h-[600px] w-full '>
           <iframe
             title='twitch'
-            src='https://player.twitch.tv/?channel=maycamevolve&parent=maycamevolve.com'
+            src='https://player.twitch.tv/?channel=maycamevolve&parent=main.maycamevolve.com/'
             allowFullScreen
             height='378'
             width='620'
