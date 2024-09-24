@@ -1,22 +1,12 @@
-import Image from 'next/image';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import YouTubeIcon from '@mui/icons-material/YouTube';
-import { BiLogoTiktok } from 'react-icons/bi';
-import { FaTwitch } from 'react-icons/fa';
+import Image from 'next/image'
+import TwitterIcon from '@mui/icons-material/Twitter'
+import InstagramIcon from '@mui/icons-material/Instagram'
+import YouTubeIcon from '@mui/icons-material/YouTube'
+import { BiLogoTiktok } from 'react-icons/bi'
+import { FaTwitch } from 'react-icons/fa'
 
 const Streamers = () => {
   const streamers = [
-    // {
-    //   nombre: 'ZEKI',
-    //   nacionalidad: 'ARGENTINA',
-    //   img: '/images/zeki.png',
-    //   instagram: 'https://www.instagram.com/xzeekii/',
-    //   tiktok: 'https://www.tiktok.com/@xzeekii',
-    //   twitch: 'https://www.twitch.tv/zeki',
-    //   youtube: 'https://www.youtube.com/@Zekix',
-    //   twitter: 'https://twitter.com/xzeekii',
-    // },
     {
       nombre: 'MANUCRESPO',
       nacionalidad: 'ARGENTINA',
@@ -49,16 +39,6 @@ const Streamers = () => {
         'https://www.youtube.com/@randompl4yerok/videos',
       twitter: 'https://twitter.com/RandomPl4yerok',
     },
-    // {
-    //   nombre: 'FOLKER',
-    //   nacionalidad: 'ARGENTINA',
-    //   img: '/images/folker.webp',
-    //   instagram: 'https://www.instagram.com/folkerz12/',
-    //   tiktok: 'https://www.tiktok.com/@folkerz12',
-    //   twitch: 'https://www.twitch.tv/folkerz12',
-    //   youtube: 'https://www.youtube.com/@folkerz12',
-    //   twitter: 'https://twitter.com/folkerz12',
-    // },
     {
       nombre: 'CONO',
       nacionalidad: 'ARGENTINA',
@@ -77,16 +57,6 @@ const Streamers = () => {
         'https://www.instagram.com/sharontiziana_/',
       twitch: 'https://www.twitch.tv/tizianabj_',
     },
-    // {
-    //   nombre: 'MATI FIFA',
-    //   nacionalidad: 'ARGENTINA',
-    //   img: 'https://cdn.devdojo.com/images/july2021/team-member-1.jpg',
-    //   instagram: 'https://www.instagram.com/matififa90/',
-    //   tiktok: 'https://www.tiktok.com/@matififa90',
-    //   twitch: 'https://www.twitch.tv/matififa_90',
-    //   youtube: 'https://www.youtube.com/@matififa90',
-    //   twitter: 'https://twitter.com/mati_alvarez7',
-    // },
     {
       nombre: 'Fernanda Russo',
       nacionalidad: 'ARGENTINA',
@@ -95,7 +65,7 @@ const Streamers = () => {
         'https://www.instagram.com/russofernandaa/',
       twitter: 'https://twitter.com/ItsFerRusso',
     },
-  ];
+  ]
   return (
     <section id='streamers' className=' mt-4 lg:mt-10'>
       <div className='py-16 pl-4 pr-4 mx-auto ml-auto mr-auto bg-top bg-cover max-w-7xl md:px-24 lg:px-12 lg:py-20'>
@@ -192,11 +162,11 @@ const Streamers = () => {
                   </div>
                 </div>
               </div>
-            );
+            )
           })}
         </div>
       </div>
     </section>
-  );
-};
-export default Streamers;
+  )
+}
+export default Streamers
